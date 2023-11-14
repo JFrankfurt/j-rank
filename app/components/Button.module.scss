@@ -1,0 +1,17 @@
+.button {
+  font-size: large;
+  color: black;
+  border: 0.5px solid rgba(0, 0, 0, 0.50);
+  background: #FFF;
+  box-shadow: 2px 2px 0px 0px #000;
+  width: 44px;
+  cursor: pointer;
+}
+
+.button:active,
+.button:focus {
+  color: white;
+  background: #0038FF;
+  box-shadow: 2px 2px 0px 0px #0038FF;
+  outline: none;
+}
