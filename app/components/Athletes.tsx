@@ -1,18 +1,18 @@
-"use client";
-import React, { useState, useEffect } from "react";
-import styles from "./Athletes.module.scss";
+'use client'
+import React, { useState, useEffect } from 'react'
+import styles from './Athletes.module.scss'
 
 interface AthletesProps {
-  search: string;
+  search: string
 }
 
 export default function Athletes({ search }: AthletesProps) {
-  const [data, setData] = useState<any>([]);
+  const [data, setData] = useState<any>([])
   useEffect(() => {
-    fetch(`/search${search ? `?search=${search}` : ""}`)
+    fetch(`/search${search ? `?search=${search}` : ''}`)
       .then((response) => response.json())
-      .then((data) => setData(data.response));
-  }, [search]);
+      .then((data) => setData(data.response))
+  }, [search])
 
   return (
     <div className={styles.root}>
@@ -22,5 +22,5 @@ export default function Athletes({ search }: AthletesProps) {
         </div>
       ))}
     </div>
-  );
+  )
 }

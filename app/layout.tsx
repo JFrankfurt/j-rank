@@ -1,27 +1,26 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "./globals.css";
+import type { Metadata } from 'next'
+import { Work_Sans } from 'next/font/google'
+import styles from './layout.module.scss'
+import './globals.css'
 
 // Font files can be colocated inside of `app`
-const baselBook = localFont({
-  src: "./Basel-Book.woff",
-  variable: "--font-basel-book",
-  display: "auto",
-});
+const workSans = Work_Sans({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: "J-Rank",
-  description: "bjj ranking system",
-};
+  title: 'J-Rank',
+  description: 'bjj ranking system',
+}
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
     <html lang="en">
-      <body className={baselBook.className}>{children}</body>
+      <body className={`${workSans.className} ${styles.body}`}>
+        {children}
+      </body>
     </html>
-  );
+  )
 }
