@@ -67,9 +67,11 @@ export default function Home() {
         ) : (
           <>
             <Button>P4P</Button>
-            <Button>P4P</Button>
-            <Button>P4P</Button>
-            <Button>P4P</Button>
+            <Button onClick={() => setWeightClass('135')}>115</Button>
+            <Button onClick={() => setWeightClass('135')}>125</Button>
+            <Button onClick={() => setWeightClass('135')}>135</Button>
+            <Button onClick={() => setWeightClass('145')}>145</Button>
+            <Button onClick={() => setWeightClass('145+')}>145+</Button>
           </>
         )}
       </div>
