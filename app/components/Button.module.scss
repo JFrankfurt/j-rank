@@ -4,7 +4,8 @@
   border: 0.5px solid rgba(0, 0, 0, 0.50);
   background: #FFF;
   box-shadow: 2px 2px 0px 0px #000;
-  width: 44px;
+  min-width: 44px;
+  padding: 0 6px;
   cursor: pointer;
 }
 

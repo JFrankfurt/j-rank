@@ -11,18 +11,18 @@ interface ToggleProps {
   onContent?: string
 }
 
-const Toggle: FC<ToggleProps> = (props) => {
+const Toggle: FC<ToggleProps> = ({offContent, onContent, ...rest}) => {
   return (
     <label className={styles.toggle}>
-      <input className={styles.toggleInput} type="checkbox" {...props} />
+      <input className={styles.toggleInput} type="checkbox" {...rest} />
       <span className={styles.toggleSlider}>
-        {props.offContent && (
+        {offContent && (
           <span className={`${styles.icon} ${styles.iconOff}`}>
-            {props.offContent}
+            {offContent}
           </span>
         )}
-        {props.onContent && (
-          <span className={`${styles.icon} ${styles.iconOn}`}>{props.onContent}</span>
+        {onContent && (
+          <span className={`${styles.icon} ${styles.iconOn}`}>{onContent}</span>
         )}
       </span>
     </label>
