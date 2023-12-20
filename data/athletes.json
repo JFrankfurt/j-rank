@@ -1,0 +1,5150 @@
+[
+  {
+    "guid": "95d32bb1-ff0c-4024-acd9-bda5bbd210c1",
+    "firstName": "Adam",
+    "lastName": "Mcphie",
+    "team": {
+      "guid": "2b89f250-9faf-40c7-88ae-e73402548c5b",
+      "name": "Team black jujitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 101,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "15b96ed7-848c-45db-9839-d8aa5d36bcf3",
+    "firstName": "Aidan",
+    "lastName": "Burke",
+    "team": {
+      "guid": "5ba5acf1-ff51-43ae-a048-934ab693632a",
+      "name": "Team Taino",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 103,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "6418770d-d8e3-4e41-83e2-8870ca6368c0",
+    "firstName": "Alex",
+    "lastName": "West",
+    "team": {
+      "guid": "81f05b52-db54-4fa1-86c0-47ca2e14fd7e",
+      "name": "Precision Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 109,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "d54fe6ba-4f1c-4063-9874-7a54472e3491",
+    "firstName": "Alexander",
+    "lastName": "Rykowski",
+    "team": {
+      "guid": "6a1bd644-bb72-4859-bfc8-be6b4a05468d",
+      "name": "Renzo Gracie",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 105,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "2306a4f3-9239-47d5-a890-6f04724b7865",
+    "firstName": "Alexis",
+    "lastName": "Ortiz",
+    "team": {
+      "guid": "3ff2bcb9-65e1-4557-8791-bb9030d89c93",
+      "name": "Gracie barra",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 97,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "2f4de02f-a9bf-4c14-aa95-0f5f115edce5",
+    "firstName": "Aliou",
+    "lastName": "Pane",
+    "team": {
+      "guid": "52351567-56cd-461f-ab9f-1a7930afe541",
+      "name": "Bronx Martial Arts Academy",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 50,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "99b823bc-3e0d-424b-925f-30bf065959eb",
+    "firstName": "Alonzo",
+    "lastName": "Lyles",
+    "team": {
+      "guid": "e880d331-9177-4f34-81a0-ff10f427f7ff",
+      "name": "Armezzani Jiujitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 107,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "5307b0c1-9a68-4bd0-a5ba-f23808ce4135",
+    "firstName": "Amadeo",
+    "lastName": "Bugatti",
+    "team": {
+      "guid": "5cee72f6-0c41-4344-bdbc-c32807fc4040",
+      "name": "Black Wolf Martial Arts",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 121,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "3c19d439-6c5e-458e-a6da-bec92caee060",
+    "firstName": "Andre",
+    "lastName": "Setter",
+    "team": {
+      "guid": "5f8e17c7-8036-4bfd-aae3-b71f2e3f1498",
+      "name": "The Lab Easton",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 123,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "0acf481d-df1e-4fea-9281-449370358001",
+    "firstName": "Andrew",
+    "lastName": "DeGraff",
+    "team": {
+      "guid": "24cbf701-8624-4d42-9cc1-0fa0b598fc9e",
+      "name": "New Wave Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 63,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "255e0c69-7448-4785-a80e-9b795ed53671",
+    "firstName": "Andrew",
+    "lastName": "Franco",
+    "team": {
+      "guid": "52351567-56cd-461f-ab9f-1a7930afe541",
+      "name": "Bronx Martial Arts Academy",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 119,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "8b7bdcf1-fba6-443d-83dd-ef934e68cf6b",
+    "firstName": "Andrew",
+    "lastName": "Vega",
+    "team": {
+      "guid": "b263aa67-dcf9-481f-ad80-a780b18ac613",
+      "name": "10th Planet",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 115,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "98d97546-5083-4530-b6be-50c386049d34",
+    "firstName": "Andrew",
+    "lastName": "Alexander",
+    "team": {
+      "guid": "b263aa67-dcf9-481f-ad80-a780b18ac613",
+      "name": "10th Planet",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 127,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "4e6563ed-3dc0-4ac6-a743-8d2f6ebc9067",
+    "firstName": "Andy",
+    "lastName": "Gomez",
+    "team": {
+      "guid": "9a94966c-cf90-400b-8aab-75828430fe75",
+      "name": "Jiujitsu Syndicate",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 125,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "053efb61-6e30-46fe-a925-27ceec79782d",
+    "firstName": "Angel",
+    "lastName": "Morales",
+    "team": {
+      "guid": "3de46e9d-4953-4151-a561-f15a2b7c1d50",
+      "name": "Vagner Rocha Martial Arts",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 117,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "184e0f83-fb0c-4b6a-b543-97e2eecbed87",
+    "firstName": "Angelo",
+    "lastName": "Sullo",
+    "team": {
+      "guid": "c14fb127-b6f5-4177-9780-c314d616108d",
+      "name": "Stafford Mixed Martial Arts",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 113,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "14841706-b631-4f3f-ae6a-b7a1ca390157",
+    "firstName": "Anthony",
+    "lastName": "Lopez",
+    "team": {
+      "guid": "d3682b65-527c-4590-b48f-db98fb36433d",
+      "name": "Tornado Alley",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 83,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "39a14b5c-ca22-49b6-b69d-a62f944f8a8f",
+    "firstName": "Anthony",
+    "lastName": "Jagel",
+    "team": {
+      "guid": "1b4df8de-063b-419e-9fe3-db85c84b8b22",
+      "name": "Queen City Grappling Club",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 81,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "85134077-fcc9-45f2-9c1d-8f2fbfff43b4",
+    "firstName": "Anthony",
+    "lastName": "O'Dell",
+    "team": {
+      "guid": "3de46e9d-4953-4151-a561-f15a2b7c1d50",
+      "name": "Vagner Rocha Martial Arts",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 45,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "cac64d90-6f01-4dd2-910b-f6f959b30179",
+    "firstName": "Anthony",
+    "lastName": "Rua",
+    "team": {
+      "guid": "3c8d2886-51aa-4b6f-9fdb-2c1dde3994e8",
+      "name": "Up Top",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 93,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "e610ae04-43ca-4729-b603-9f01cc38066d",
+    "firstName": "Anthony",
+    "lastName": "Lucca",
+    "team": {
+      "guid": "c0c397f4-647b-481c-b71d-26727d82284a",
+      "name": "Wilson Bros Grappling",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 85,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "f049261c-1348-4d64-95e5-add3a9cdfcd3",
+    "firstName": "Anthony",
+    "lastName": "Molina Valdes",
+    "team": {
+      "guid": "b263aa67-dcf9-481f-ad80-a780b18ac613",
+      "name": "10th Planet",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 43,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "f21fc8f8-e058-4b49-be70-ec513950f82f",
+    "firstName": "Anthony",
+    "lastName": "Ortiz",
+    "team": {
+      "guid": "92b63380-4e3c-489e-976a-7d624e2c0ffe",
+      "name": "Unity Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 87,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "bc69432d-c041-4192-b704-e38fcd10d9a4",
+    "firstName": "Benjamin",
+    "lastName": "Moser",
+    "team": {
+      "guid": "a24918d3-2261-4377-b99e-85f9fdee6a12",
+      "name": "Moser's Mat Club",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 95,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "46a12d94-351f-424c-873b-3175062f9dfb",
+    "firstName": "Billy",
+    "lastName": "Baxter",
+    "team": {
+      "guid": "9d9f3aca-76f3-4377-813d-cc12cde3fc29",
+      "name": "Hidden leaf Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 89,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "0a8df6a5-85d4-4cc0-b0b9-6de20a5e2785",
+    "firstName": "Bradley",
+    "lastName": "Thomas",
+    "team": {
+      "guid": "aefe0783-3a05-495f-b22e-5d2aea38cc3c",
+      "name": "Eco Submission Grappling",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 91,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "ed947756-f1df-42d0-853a-a5c399d86e09",
+    "firstName": "Brandon",
+    "lastName": "Correa",
+    "team": {
+      "guid": "53c5078d-fb2f-4173-85eb-c974ee7e9bdc",
+      "name": "Darcio Lira",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 73,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "c5cd4098-4983-4813-afb3-da8eb4d1874d",
+    "firstName": "Brandt",
+    "lastName": "Basaran",
+    "team": {
+      "guid": "318981cc-fea8-4465-8299-322fbbe58ccb",
+      "name": "Indy Boxing and Grappling",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 75,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "83be62f5-4b62-4da7-a052-5958fe6a7019",
+    "firstName": "Bryce",
+    "lastName": "Grantz",
+    "team": {
+      "guid": "37c4ca21-1d10-4b8d-a4a2-b3414120f82c",
+      "name": "MMA Institute",
+      "abbreviation": "MMAI"
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 77,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "7f722621-6687-4ec5-a461-90a33acc75c8",
+    "firstName": "Caleb",
+    "lastName": "Sachetti",
+    "team": {
+      "guid": "ebf68f5f-ecfd-40da-8261-814db7ab607a",
+      "name": "Dauntless",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 79,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "a859578c-129d-4742-b70e-e5f2c37ee6ac",
+    "firstName": "Cameron",
+    "lastName": "Mellott",
+    "team": {
+      "guid": "16f1efaf-8eef-4843-8a40-5ca26ef95982",
+      "name": "Tom Deblass",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 9,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "86ef2f96-3677-413f-84e4-9e0742d00323",
+    "firstName": "Carlos",
+    "lastName": "Cortezzamora",
+    "team": {
+      "guid": "f822750c-0f93-4c29-a9d2-58a1ed299727",
+      "name": "Gracie Charlottesville",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 69,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "7476f405-5b0f-49aa-ad8f-f669aab1bfc6",
+    "firstName": "Charles",
+    "lastName": "Muxo",
+    "team": {
+      "guid": "3cb3663e-b5e1-44c6-98ca-b9e77c5c153c",
+      "name": "Black Tie Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 71,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "c1ce7943-edc9-4994-b807-01e473ca41aa",
+    "firstName": "Charles",
+    "lastName": "Murdock",
+    "team": {
+      "guid": "2e909d62-eb97-4cbf-a861-7b9516c186cb",
+      "name": "Pedigo submission fighting",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 47,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "2922f1da-630d-4560-ae83-ec72f0bd908b",
+    "firstName": "Christian",
+    "lastName": "Major",
+    "team": {
+      "guid": "cdd1ad68-6f44-4575-94ac-02591d16c5f4",
+      "name": "Impact Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 65,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "997ddc55-cda4-4aac-bdbf-e8b4c7d1456d",
+    "firstName": "Christian",
+    "lastName": "Morales",
+    "team": {
+      "guid": "52351567-56cd-461f-ab9f-1a7930afe541",
+      "name": "Bronx Martial Arts Academy",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 67,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "2da1eae1-3b71-46b5-b425-d7d1552fa968",
+    "firstName": "Christopher",
+    "lastName": "Carpenter",
+    "team": {
+      "guid": "468fb813-64b6-4ab0-8a11-0cfd5244bc55",
+      "name": "Carlson Gracie Grand Rapids",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 193,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "d05603d3-97d3-4c00-9963-eddd6de2cee1",
+    "firstName": "Christopher",
+    "lastName": "Ashley",
+    "team": {
+      "guid": "e0a142b5-1bc1-4ec7-ad29-4ada317fedff",
+      "name": "Standard Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 195,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "770c374d-decb-4f7e-8e96-2efae9b28dae",
+    "firstName": "Clemens",
+    "lastName": "Tucker",
+    "team": {
+      "guid": "3cb3663e-b5e1-44c6-98ca-b9e77c5c153c",
+      "name": "Black Tie Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 199,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "678a84f2-64c0-4347-bc5e-563d9f866b20",
+    "firstName": "Corey",
+    "lastName": "Wingo",
+    "team": {
+      "guid": "5dd697be-df58-4638-92dd-29d2d4ecf667",
+      "name": "Dunamis MMA and Combatives",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 197,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "3ed0f88f-b375-4579-9ab8-0076bcc2bad4",
+    "firstName": "Cory",
+    "lastName": "Henn",
+    "team": {
+      "guid": "a32981d4-85a3-4b09-876a-8cd35f9b18fe",
+      "name": "Roundtable BJJ",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 205,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "d10f13ee-a042-4a86-a6d6-f6d5e76719ec",
+    "firstName": "Cyrus",
+    "lastName": "Simons",
+    "team": {
+      "guid": "c7a2b87b-fc3b-4435-a8b7-4d7aa13f36ae",
+      "name": "Cabrera Jiu Jitsu Association",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 207,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "92c81d3d-9bda-4015-8406-0582468b3dfd",
+    "firstName": "Dakota",
+    "lastName": "McPhatter",
+    "team": {
+      "guid": "1a582c56-5710-453d-9c23-7a8377a743e3",
+      "name": "Wendell BJJ",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 203,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "c0acd49f-1bc5-4155-a9f1-9f160dfcfa0f",
+    "firstName": "Dakota",
+    "lastName": "Esparra",
+    "team": {
+      "guid": "6a1bd644-bb72-4859-bfc8-be6b4a05468d",
+      "name": "Renzo Gracie",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 201,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "1ca8aadd-05ab-4e39-9a51-f316bc071617",
+    "firstName": "Dalton",
+    "lastName": "Grinstead",
+    "team": {
+      "guid": "80dfc7aa-31ac-46ec-8a96-dc0e200c28cc",
+      "name": "Dubuque BJJ",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 219,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "a03ec86b-2952-4f84-8eab-75b35efc3608",
+    "firstName": "Dalton",
+    "lastName": "Delong",
+    "team": {
+      "guid": "9087aa65-0772-41e6-815e-e7f95bc5edd8",
+      "name": "Gracie Univeristy Las Vegas",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 217,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "fd5af60f-8d1e-491c-97f7-f47ac70a45d2",
+    "firstName": "Damian",
+    "lastName": "Maver",
+    "team": {
+      "guid": "6a1bd644-bb72-4859-bfc8-be6b4a05468d",
+      "name": "Renzo Gracie",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 221,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "198551c8-e072-4421-b133-3d61a19c5c63",
+    "firstName": "Dancy",
+    "lastName": "Debrosse",
+    "team": {
+      "guid": "463bb3b6-1013-44ea-b5e1-227553e720fd",
+      "name": "Ground Control Academy",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 223,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "f75688d7-1930-470a-97c2-71f889822a44",
+    "firstName": "Daniel",
+    "lastName": "Fox",
+    "team": {
+      "guid": "84c15bf6-9295-4aab-bd10-f7a062620a1f",
+      "name": "Royal Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 213,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "c6274fc2-274e-4e6c-b968-57439a056bba",
+    "firstName": "Danny",
+    "lastName": "Lyons",
+    "team": {
+      "guid": "a72f5a97-e574-47fe-af26-af2779c1e894",
+      "name": "North River Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 215,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "ca429ab2-05ed-49ca-b6ed-bf574f4a7ef2",
+    "firstName": "Dario",
+    "lastName": "Sammartino",
+    "team": {
+      "guid": "88e12f79-17a9-4e0a-83de-dd91abfba8d6",
+      "name": "Vamos Bjj",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 209,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "105f26f8-89aa-4258-a478-04a7327637cf",
+    "firstName": "David",
+    "lastName": "Kruczkowski",
+    "team": {
+      "guid": "5e5c4bf2-3dd3-497c-b153-8b4eb8cb5ccd",
+      "name": "GracieSports",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 245,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "296540fd-95b1-4264-b3dc-d35a7dd8de7b",
+    "firstName": "David",
+    "lastName": "Barnes",
+    "team": {
+      "guid": "f3b43e00-c54a-4a5d-a17a-5ac0e0019def",
+      "name": "Atos",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 241,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "30a87ff0-31af-4ddd-92df-467b74ac7b52",
+    "firstName": "David",
+    "lastName": "Vergel",
+    "team": {
+      "guid": "42f21063-5fa7-46f7-aaa3-bd48ae314f95",
+      "name": "G-Team",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 253,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "66a93a76-590c-44bb-b41a-370d3f8a34fa",
+    "firstName": "David",
+    "lastName": "Ortega",
+    "team": {
+      "guid": "9667f77e-8602-4628-8192-ffb2577e5d3e",
+      "name": "Empire",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 247,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "9535fa9e-b96f-4cc1-aa8f-2ffa417e0cf8",
+    "firstName": "David",
+    "lastName": "Stoilescu",
+    "team": {
+      "guid": "5f6f59e4-2db3-4660-825d-6f4a52cef19b",
+      "name": "Sydney West Martial Arts",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 31,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "a0f2e807-2acf-4982-86a6-43555c30ad29",
+    "firstName": "David",
+    "lastName": "Bannan",
+    "team": {
+      "guid": "b999a4d6-6acc-45ad-87ca-87e3cc168ffa",
+      "name": "Charlotte Jiu-jitsu academy",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 211,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "d454261f-cce2-462b-952f-548d90e0ef7e",
+    "firstName": "David",
+    "lastName": "Gray",
+    "team": {
+      "guid": "1039cde2-bf28-4900-accd-828b124cf2ab",
+      "name": "Young Boys Incorporated",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 243,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "8d3fabfb-c7c6-4d04-814f-60d47716c0b2",
+    "firstName": "Deandre",
+    "lastName": "Corbe",
+    "team": {
+      "guid": "e0a142b5-1bc1-4ec7-ad29-4ada317fedff",
+      "name": "Standard Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 7,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "572777ed-d39c-477f-9357-d6fc56f82d29",
+    "firstName": "Dennis",
+    "lastName": "Pressey Jr",
+    "team": {
+      "guid": "ca5db307-74f7-440c-bd67-480c0a1c0f41",
+      "name": "Logic",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 255,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "0bad1d7c-5695-46c0-aec3-f76dcabcf000",
+    "firstName": "Denzel",
+    "lastName": "Reboya",
+    "team": {
+      "guid": "b263aa67-dcf9-481f-ad80-a780b18ac613",
+      "name": "10th Planet",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 251,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "2aca85b2-1282-4b55-82c1-ffd031121ce3",
+    "firstName": "Devin",
+    "lastName": "Nelson",
+    "team": {
+      "guid": "04c1c36b-5ee8-4b37-849f-88c6f7283103",
+      "name": "Jay Pages Jiu jitsu MMA",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 233,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "517670d9-5101-4204-bbfc-cda7b0bead71",
+    "firstName": "Devin",
+    "lastName": "Vazquez",
+    "team": {
+      "guid": "bc2cd86b-715c-43d3-b9f0-37f27f8634b0",
+      "name": "Warrior Fitness Center",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 235,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "df213a3a-bdfe-46e5-913a-01872aeefcf9",
+    "firstName": "Devin",
+    "lastName": "Church",
+    "team": {
+      "guid": "8b6f1de6-f531-435f-b3e3-b9090ffe532b",
+      "name": "Studio 1908",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 249,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "27e2859a-768b-4090-b4d7-efe980806891",
+    "firstName": "Diallo",
+    "lastName": "Braithwaite",
+    "team": {
+      "guid": "8125dc82-22fc-4209-83bf-c9f7d98dd4bb",
+      "name": "The Lab MMA/Big Brothers",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 239,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "66ba1b40-c8f3-4456-be95-c9b8e437a640",
+    "firstName": "Dominic",
+    "lastName": "Mejia",
+    "team": {
+      "guid": "0646dd84-d836-4358-a7cf-c15badbc8d1a",
+      "name": "Carlsbad Jiu-Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 23,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "34d4f82b-7935-4656-9985-ed28fbe64c61",
+    "firstName": "Dorian",
+    "lastName": "Olivarez",
+    "team": {
+      "guid": "452d8e51-c2da-410f-93cb-e5792195fc50",
+      "name": "Team Olivarez",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 21,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "f3141e3a-0d4e-4182-b642-9c84629820ee",
+    "firstName": "Douglas",
+    "lastName": "Townsend",
+    "team": {
+      "guid": "8f9fce45-0530-43b1-9ad5-bf3e48046137",
+      "name": "Armada Jiu Jitsu Academy",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 237,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "87b5d2ef-8720-4afa-a4ec-59c9026a2fb8",
+    "firstName": "Dylan",
+    "lastName": "Cameron",
+    "team": {
+      "guid": "1acbd15c-4457-49ca-b759-a155c07bca66",
+      "name": "Sapetiro Top Team",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 51,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "56fe2865-2e36-4da2-84d7-6b6342464a4d",
+    "firstName": "Edgar",
+    "lastName": "Garcia",
+    "team": {
+      "guid": "55bcd0be-52e2-4395-9f8c-dc47663bc06e",
+      "name": "Andre Maneco BJJ",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 229,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "46a1f700-1b9e-4f24-9eb9-ec5b0caaee14",
+    "firstName": "Elijah",
+    "lastName": "Valdivia",
+    "team": {
+      "guid": "23da4b75-06f8-4583-a5e4-bfb6fbf0aaec",
+      "name": "Elevate JJA / Halo BJJ",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 231,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "931e0baa-39b7-48f5-bbba-d1dcf4003408",
+    "firstName": "Emilio",
+    "lastName": "Hernandez Rodriguez",
+    "team": {
+      "guid": "48e23058-ff05-4e19-b41b-a56ad366a667",
+      "name": "Tennessee Brazilian Jiu Jitsu Academy",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 29,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "405c5bd6-75f5-4379-9568-4ee9736d62b6",
+    "firstName": "Engir",
+    "lastName": "Son",
+    "team": {
+      "guid": "6a1bd644-bb72-4859-bfc8-be6b4a05468d",
+      "name": "Renzo Gracie",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 225,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "2ed16aa5-0dd1-489b-9dcc-bada83f77802",
+    "firstName": "Eric",
+    "lastName": "Warren",
+    "team": {
+      "guid": "b1b72d59-88f7-4533-bbe4-41110b91897a",
+      "name": "True Believer Brazilian Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 227,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "7bbfc8be-91a2-4772-ae2e-af7e2e19da85",
+    "firstName": "Ethan",
+    "lastName": "Crelinsten",
+    "team": {
+      "guid": "29f6cbca-ed66-4b0b-9d3e-a5678827918c",
+      "name": "B-Team",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 1,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "da9b1edc-ccae-48c3-bc10-18272bf40cd3",
+    "firstName": "Etienne",
+    "lastName": "Duchesne",
+    "team": {
+      "guid": "ee8f3faa-0247-41a6-a788-af4230e57f53",
+      "name": "Tristar Gym",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 161,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "f9e4ff55-62dc-4557-85f6-a3c6e9701d33",
+    "firstName": "Fabian",
+    "lastName": "Ramirez",
+    "team": {
+      "guid": "9b1c388c-8e09-47f8-b78f-a24d71e0351e",
+      "name": "Vanguard Academy",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 27,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "5632ea0d-71a6-4fca-a47b-bef6eb99325e",
+    "firstName": "Finnegan",
+    "lastName": "McNitt",
+    "team": {
+      "guid": "01c2015e-314b-4a26-b141-a98075f7c8d3",
+      "name": "Lake Ozark Brazilian Jiu jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 163,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "072186e4-e85c-40ad-bca7-301399dfc071",
+    "firstName": "Franklin",
+    "lastName": "Miranda Jr",
+    "team": {
+      "guid": "6a1bd644-bb72-4859-bfc8-be6b4a05468d",
+      "name": "Renzo Gracie",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 165,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "8d4a94b6-5600-442d-9c3f-1861e6a083c7",
+    "firstName": "Gavin",
+    "lastName": "Culler",
+    "team": {
+      "guid": "f332d0ba-5419-4a66-946b-541132cd0724",
+      "name": "Omega MMA",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 6,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "a5655415-3e5b-4438-8024-0dd741fc3c4e",
+    "firstName": "Gavin",
+    "lastName": "Corbe",
+    "team": {
+      "guid": "e0a142b5-1bc1-4ec7-ad29-4ada317fedff",
+      "name": "Standard Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 15,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "49385c01-29a8-47d7-a32c-a5fd7c04f9c6",
+    "firstName": "Gianni",
+    "lastName": "Grippo",
+    "team": {
+      "guid": "88a0285b-c2c3-4c62-a517-daa42b56c3af",
+      "name": "Gianni Grippo Academy",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 5,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "1f610456-69a0-4452-8243-291b86ca4bdc",
+    "firstName": "Giovanni",
+    "lastName": "Rubio",
+    "team": {
+      "guid": "d3257bd9-679b-4d4e-ad27-c47edfeaf566",
+      "name": "Watkins Wrecking Crew",
+      "abbreviation": "WWC"
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 173,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "2760f871-5e32-46eb-9e47-c01abe86d88d",
+    "firstName": "Hashir",
+    "lastName": "Azam",
+    "team": {
+      "guid": "b263aa67-dcf9-481f-ad80-a780b18ac613",
+      "name": "10th Planet",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 175,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "34df8928-7994-4cde-abd6-eec2d7c42188",
+    "firstName": "Hunter",
+    "lastName": "Young",
+    "team": {
+      "guid": "72d5a047-bf9f-4854-9f89-62e0e49ee3d3",
+      "name": "BOA BJJ Academy",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 169,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "a6a2435a-0a15-425a-a2e9-21bc59efff67",
+    "firstName": "Huthayfah",
+    "lastName": "Penney",
+    "team": {
+      "guid": "29278ce5-a2d5-4f1f-959a-e9c58cc2504e",
+      "name": "Frontline Academy",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 118,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "7768982f-2058-469b-996a-f3704f0f5470",
+    "firstName": "Ian",
+    "lastName": "Murray",
+    "team": {
+      "guid": "d4f64689-81c1-484b-9c5c-bf2ecb50f705",
+      "name": "Gracie Brandon",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 185,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "33b3e09f-86a6-4951-bd97-bd323b443166",
+    "firstName": "Ibraheem",
+    "lastName": "Ali",
+    "team": {
+      "guid": "6a1bd644-bb72-4859-bfc8-be6b4a05468d",
+      "name": "Renzo Gracie",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 131,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "aac04d96-59cf-4966-a799-9d71238e7ed3",
+    "firstName": "Ielfri",
+    "lastName": "Hernandez",
+    "team": {
+      "guid": "53bb148c-bf2b-41f2-b23e-d88a551f5cc0",
+      "name": "Integrity Martial Arts",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 187,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "727dc0c5-2f5b-4c87-8b91-74f54fbdcedc",
+    "firstName": "Isaac",
+    "lastName": "Cordova",
+    "team": {
+      "guid": "b263aa67-dcf9-481f-ad80-a780b18ac613",
+      "name": "10th Planet",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 11,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "fe2c05e7-4dc7-4eda-ab30-887e4838b2b5",
+    "firstName": "Islam",
+    "lastName": "Elgarhi",
+    "team": {
+      "guid": "7e399449-2df2-4f9a-9f29-9a1fa1dd4d42",
+      "name": "Prolific BJJ / K - Dojo MMA",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 191,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "990a97a4-f6ca-42d0-8d76-fd657ac92647",
+    "firstName": "Ivan",
+    "lastName": "Perez",
+    "team": {
+      "guid": "060a6907-e261-435a-9c97-6f6e5d1d7baf",
+      "name": "Pressure Jiu Jitsu & MMA",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 181,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "8739513e-d0b3-454d-92d7-8c25fbcaa21d",
+    "firstName": "Jack",
+    "lastName": "Sudduth",
+    "team": {
+      "guid": "515ab3d8-a29d-4483-91c1-c452bd3b7158",
+      "name": "Calvert MMA",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 183,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "18949aa0-20e7-4028-b350-19051abaf766",
+    "firstName": "Jackson",
+    "lastName": "Glass",
+    "team": {
+      "guid": "8527688c-adce-47c9-ae6d-f5cda517739d",
+      "name": "Fight Factory",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 120,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "1b0f4ae2-bb1f-4fe8-b08e-62dc9c35e01d",
+    "firstName": "Jacob",
+    "lastName": "Lehman",
+    "team": {
+      "guid": "c752d400-4444-4744-a5d0-ceabd2ff7f9d",
+      "name": "Elevated Studios",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 147,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "56e7d4a4-ff1b-465c-817b-9a9fbaf99e6b",
+    "firstName": "Jacob",
+    "lastName": "Francato",
+    "team": {
+      "guid": "e8a3ed07-d1cd-4ccd-82d4-303b42761efc",
+      "name": "Matt Secor Brazilian Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 145,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "85411254-dc96-4fcd-9778-594f6772f2ad",
+    "firstName": "Jacob",
+    "lastName": "Gergely",
+    "team": {
+      "guid": "5cee72f6-0c41-4344-bdbc-c32807fc4040",
+      "name": "Black Wolf Martial Arts",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 149,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "bfd89d6a-c3a7-4377-b158-2f7b022327e2",
+    "firstName": "Jacob",
+    "lastName": "Falleni",
+    "team": {
+      "guid": "66c770b5-8262-4da7-b8c1-69ce9561f214",
+      "name": "Core Combat Sports",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 179,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "f5d9bc8f-f3a2-4ec6-843b-86ad3a23582f",
+    "firstName": "Jacob",
+    "lastName": "Semsem",
+    "team": {
+      "guid": "495c6e7d-aed6-4603-b343-2a603961ed95",
+      "name": "Legion AJJ",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 151,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "b03bcd46-5083-41a5-ba37-08b76944ac5a",
+    "firstName": "Jacobo",
+    "lastName": "Apito",
+    "team": {
+      "guid": "82a62153-8e1e-46b2-a8f4-8d343517f724",
+      "name": "Back to Basics",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 157,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "7252fc91-0c27-487b-8dc4-b64ce6c02dca",
+    "firstName": "Jake",
+    "lastName": "Anderson",
+    "team": {
+      "guid": "16f1efaf-8eef-4843-8a40-5ca26ef95982",
+      "name": "Tom Deblass",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 153,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "63d44988-fffd-45b8-aea3-be7bfcbb36c8",
+    "firstName": "James",
+    "lastName": "Vanosdol",
+    "team": {
+      "guid": "b263aa67-dcf9-481f-ad80-a780b18ac613",
+      "name": "10th Planet",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 159,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "365256e0-e71f-49ff-9426-575a4a690c00",
+    "firstName": "Jason",
+    "lastName": "Roberts",
+    "team": {
+      "guid": "a0b6033f-e200-4559-9677-ba6cfae343f4",
+      "name": "Parabellum Martial Arts and Strength",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 155,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "b2a7d684-547f-4b2b-b550-2bf049705a80",
+    "firstName": "Javan",
+    "lastName": "Bresler",
+    "team": {
+      "guid": "24710782-8117-4a4a-8828-c4c7b78f3b34",
+      "name": "Iron guard bjj",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 137,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "81f58ddf-64c4-437e-8eeb-92a900b1333e",
+    "firstName": "Joey",
+    "lastName": "Diehl",
+    "team": {
+      "guid": "473161e4-ad42-4ba8-9723-f630f8a3e353",
+      "name": "RMMA",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 17,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "46b4f33c-68ae-4ce8-b31e-4f8cfa1915da",
+    "firstName": "John",
+    "lastName": "Chandler",
+    "team": {
+      "guid": "534d6bb9-ce0e-4f3b-8552-1d8410756c9b",
+      "name": "Ocrtc",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 33,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "6d19dccb-d209-4016-9ff7-5dda761dfbe8",
+    "firstName": "John",
+    "lastName": "Ortiz",
+    "team": {
+      "guid": "92b63380-4e3c-489e-976a-7d624e2c0ffe",
+      "name": "Unity Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 139,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "c8489354-49a3-470f-95e7-78856af5c271",
+    "firstName": "Johnny",
+    "lastName": "Garcia",
+    "team": {
+      "guid": "52351567-56cd-461f-ab9f-1a7930afe541",
+      "name": "Bronx Martial Arts Academy",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 143,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "bb01ef2c-57d2-481e-945c-af415da99cc1",
+    "firstName": "Jomar",
+    "lastName": "Gacoscos",
+    "team": {
+      "guid": "020cec94-a43d-40b2-a1ff-f385937b362d",
+      "name": "Joslins MMA",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 141,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "2cf26a97-20b7-4ffd-bb01-622b58729842",
+    "firstName": "Jonathan",
+    "lastName": "Calestine",
+    "team": {
+      "guid": "6a1bd644-bb72-4859-bfc8-be6b4a05468d",
+      "name": "Renzo Gracie",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 25,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "5ba6e24e-45dd-4848-9e12-82a7a5240952",
+    "firstName": "Jonathan",
+    "lastName": "Plazak",
+    "team": {
+      "guid": "d7948e35-7312-4df1-9605-1b83579d3bde",
+      "name": "True Art",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 133,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "dc6a6665-0a7c-4c9f-9015-ee11113f8858",
+    "firstName": "Jonathan",
+    "lastName": "Marrero",
+    "team": {
+      "guid": "b263aa67-dcf9-481f-ad80-a780b18ac613",
+      "name": "10th Planet",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 135,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "1802eb34-b79f-4a4a-b1ea-5c5179431bcb",
+    "firstName": "Jorge",
+    "lastName": "Chavez",
+    "team": {
+      "guid": "84c15bf6-9295-4aab-bd10-f7a062620a1f",
+      "name": "Royal Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 129,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "55bcf288-1b65-4c6b-a19b-e4682afece6c",
+    "firstName": "Joseph",
+    "lastName": "Aumann",
+    "team": {
+      "guid": "591194f3-23a2-4a45-a174-6a7fc5523e72",
+      "name": "Powerhouse MMA",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 189,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "df3845c3-3fda-4dfd-9a85-91394a0f2de6",
+    "firstName": "Joseph",
+    "lastName": "Carey",
+    "team": {
+      "guid": "9b1c388c-8e09-47f8-b78f-a24d71e0351e",
+      "name": "Vanguard Academy",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 126,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "39ce9ad5-94da-45d4-a70b-5e7b73d8dbcd",
+    "firstName": "Josh",
+    "lastName": "Baker",
+    "team": {
+      "guid": "d284e0df-81b4-455b-adac-0fd2ee3e7ceb",
+      "name": "Excelsiorbjj / bakersbjj",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 128,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "7f869398-3465-456f-b48a-8d522b2380ac",
+    "firstName": "Josh",
+    "lastName": "Thomas",
+    "team": {
+      "guid": "2dab545b-2919-4868-9b50-d6762ef0095b",
+      "name": "Wolf Hills Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 124,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "d16d4091-e9c0-460e-bf2a-f8b97686bf98",
+    "firstName": "Josh",
+    "lastName": "Murdock",
+    "team": {
+      "guid": "2e909d62-eb97-4cbf-a861-7b9516c186cb",
+      "name": "Pedigo submission fighting",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 122,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "156ac1e6-9164-4a1f-8a02-ec44a1cd76e3",
+    "firstName": "Joshua",
+    "lastName": "Flores",
+    "team": {
+      "guid": "9b1c388c-8e09-47f8-b78f-a24d71e0351e",
+      "name": "Vanguard Academy",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 99,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "25e77699-ce3a-4c63-9906-a8f2a6a97d1b",
+    "firstName": "Joshua",
+    "lastName": "Lorton",
+    "team": {
+      "guid": "fa0ed9df-4d3a-4ae8-8d24-d26a37798e0d",
+      "name": "Adamas Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 116,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "36cbedb7-899f-4713-b661-36c686029724",
+    "firstName": "Joshua",
+    "lastName": "De La Rosa",
+    "team": {
+      "guid": "52351567-56cd-461f-ab9f-1a7930afe541",
+      "name": "Bronx Martial Arts Academy",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 114,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "b0d107d9-2601-49bf-930c-5efadb8ddea0",
+    "firstName": "Joshua",
+    "lastName": "Richards",
+    "team": {
+      "guid": "b263aa67-dcf9-481f-ad80-a780b18ac613",
+      "name": "10th Planet",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 102,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "f2a6fc29-78b7-4ac5-8d21-7b2974711a13",
+    "firstName": "Joshua",
+    "lastName": "Jackson",
+    "team": {
+      "guid": "b263aa67-dcf9-481f-ad80-a780b18ac613",
+      "name": "10th Planet",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 171,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "ec524ca8-eb0e-4d71-8e9a-115276956743",
+    "firstName": "Juan",
+    "lastName": "Pablo Rubio Landero",
+    "team": {
+      "guid": "6f48de3c-94db-40e6-b975-08418b2bb71a",
+      "name": "Alliance",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 37,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "fd8dba84-6781-49af-bf11-c45b9cfd6d5e",
+    "firstName": "Juan",
+    "lastName": "Ayala",
+    "team": {
+      "guid": "24cbf701-8624-4d42-9cc1-0fa0b598fc9e",
+      "name": "New Wave Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 98,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "b2371ea8-78dd-42fb-b5c6-1b11d837b1ca",
+    "firstName": "Julian",
+    "lastName": "Espinosa",
+    "team": {
+      "guid": "6a1bd644-bb72-4859-bfc8-be6b4a05468d",
+      "name": "Renzo Gracie",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 177,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "4ccaae9b-5c96-4283-b247-6b108175e741",
+    "firstName": "Justin",
+    "lastName": "Flemens",
+    "team": {
+      "guid": "8cf84cd8-5b8e-45e2-a139-db6ce78557b4",
+      "name": "Black Market BJJ",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 104,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "e1757166-47f8-46da-b93b-99496f3fa54a",
+    "firstName": "Kaisar",
+    "lastName": "Saulebayev",
+    "team": {
+      "guid": "10208b4a-31d9-461f-9c42-85bce5e6ae2d",
+      "name": "Komainu gym",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 100,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "05be7ab4-4f43-49b2-9407-95891db4708f",
+    "firstName": "Kasey",
+    "lastName": "Arbogast",
+    "team": {
+      "guid": "1998cacf-817f-4d0c-bfe4-ebdf90fc553c",
+      "name": "Noel Smith BJJ",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 108,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "1b37a28e-97a9-47a0-8b8a-09336d80d157",
+    "firstName": "Kaushik",
+    "lastName": "Saikumar",
+    "team": {
+      "guid": "0e61a700-c10b-4596-b331-fe02be739f3f",
+      "name": "Fifty/50",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 106,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "fa4d5a8a-fa8f-4de3-9cc9-fb4f8a12951e",
+    "firstName": "Kegan",
+    "lastName": "Mulholland",
+    "team": {
+      "guid": "6e937970-d64f-4bba-a8ea-12686ab5dcb9",
+      "name": "Bellingham BJJ",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 39,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "17ef8546-1a1e-4f76-b39e-2fdf3ce48173",
+    "firstName": "Keith",
+    "lastName": "Krikorian",
+    "team": {
+      "guid": "b263aa67-dcf9-481f-ad80-a780b18ac613",
+      "name": "10th Planet",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 3,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "8ced042c-e500-41bc-b34c-42fe540bdab8",
+    "firstName": "Kenny",
+    "lastName": "Blicharski",
+    "team": {
+      "guid": "992e3866-ed38-44a1-9ef7-e2cecbedae52",
+      "name": "Kaboom Brazilian Jiu-jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 32,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "3fce0375-d094-4572-b455-dafdafc793b2",
+    "firstName": "Kevin",
+    "lastName": "Park",
+    "team": {
+      "guid": "adec3ba4-2232-4a9e-bc22-8f9a0c01c7b6",
+      "name": "SBG Atlanta",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 110,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "08d1ed84-1b40-415d-a9bf-2e221d653a11",
+    "firstName": "Kolby",
+    "lastName": "Gonzales",
+    "team": {
+      "guid": "3ff2bcb9-65e1-4557-8791-bb9030d89c93",
+      "name": "Gracie barra",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 61,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "74d1654d-fc5b-404f-a6c1-fe0b80a6bbb0",
+    "firstName": "Kyvann",
+    "lastName": "Gonzalez",
+    "team": {
+      "guid": "0ad69860-7dcb-4edf-964f-5ccab0fdd0c6",
+      "name": "Bodega jiu jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 80,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "9e67904e-4069-4732-8d64-65a9bf78ed89",
+    "firstName": "Landon",
+    "lastName": "Elmore",
+    "team": {
+      "guid": "24cbf701-8624-4d42-9cc1-0fa0b598fc9e",
+      "name": "New Wave Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 55,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "baa58098-7f60-4e3a-8cd9-138e9b399602",
+    "firstName": "Leonardo",
+    "lastName": "Alves",
+    "team": {
+      "guid": "20e61fad-0473-4b3e-a881-4dc029c4d2e8",
+      "name": "Savarese BJJ",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 78,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "7d6cafcc-2450-4ad1-9e29-dc005a1b85d1",
+    "firstName": "Lewis",
+    "lastName": "Mclendon",
+    "team": {
+      "guid": "3ff2bcb9-65e1-4557-8791-bb9030d89c93",
+      "name": "Gracie barra",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 41,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "0c1c4dc7-fc3c-42c9-a9f4-972864d95eee",
+    "firstName": "Logan",
+    "lastName": "Marshall",
+    "team": {
+      "guid": "b263aa67-dcf9-481f-ad80-a780b18ac613",
+      "name": "10th Planet",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 59,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "6e953023-ae92-411d-b3dc-199c15547c0c",
+    "firstName": "Luciano",
+    "lastName": "Tumminello",
+    "team": {
+      "guid": "bff60383-4973-40ec-b835-baee17933190",
+      "name": "American Top Team",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 76,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "b0013d08-c164-4d5a-b220-bdb46cddf368",
+    "firstName": "Mando",
+    "lastName": "Gutierrez",
+    "team": {
+      "guid": "10d9932c-9808-4e10-829e-26bb9da27fce",
+      "name": "Magic BJJ",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 74,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "8b3d35fa-6e54-44b5-9fc4-6436514b094b",
+    "firstName": "Marvin",
+    "lastName": "Meyer",
+    "team": {
+      "guid": "5cee72f6-0c41-4344-bdbc-c32807fc4040",
+      "name": "Black Wolf Martial Arts",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 68,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "b66e5c00-dee4-4fe6-a72f-e80c74d15c77",
+    "firstName": "Mason",
+    "lastName": "Klein",
+    "team": {
+      "guid": "b263aa67-dcf9-481f-ad80-a780b18ac613",
+      "name": "10th Planet",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 66,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "6899de3a-fe06-4413-a508-828ade034f9a",
+    "firstName": "Matt",
+    "lastName": "Masch",
+    "team": {
+      "guid": "ba26a977-0dec-47d1-a41c-2b11c4c5dc2e",
+      "name": "Black Hole Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 72,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "0f774f02-de16-4709-8b7f-a7fdeb92378d",
+    "firstName": "Max",
+    "lastName": "Greenberg",
+    "team": {
+      "guid": "19fdecbf-59cd-412e-bc1f-4f89bcb8a2b5",
+      "name": "Montgomery BJJ",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 70,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "8090c69e-93e9-4f33-8c51-1f54372bc494",
+    "firstName": "Micah",
+    "lastName": "Crouse",
+    "team": {
+      "guid": "eb66c8b7-52fe-4d1a-8eae-d8dc77a0bf70",
+      "name": "Team Chitwood",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 88,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "225055d4-a6a2-4379-ab22-73d15da2783c",
+    "firstName": "Michael",
+    "lastName": "Rodriguez",
+    "team": {
+      "guid": "db45dace-3366-4192-9e33-d3d7a310e39a",
+      "name": "Halo Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 92,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "277d0ec4-c565-400d-8a21-7beb9bf8623e",
+    "firstName": "Michael",
+    "lastName": "McCann",
+    "team": {
+      "guid": "5ec8409a-05f4-41ed-bd03-93b83efb925a",
+      "name": "Kompound",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 82,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "b9318227-3211-4190-ab28-989e0b0ef998",
+    "firstName": "Michael",
+    "lastName": "Baker",
+    "team": {
+      "guid": "da8acf89-93ff-4eaf-b8bb-d796abd3c760",
+      "name": "Kinetix Combat Sports",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 86,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "f540598e-9800-4e36-823b-f99b4b8f181d",
+    "firstName": "Michael",
+    "lastName": "Key",
+    "team": {
+      "guid": "9e24fcb5-47cf-48ec-ba14-9baf9e4c7b7f",
+      "name": "Gracie Charleston",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 84,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "78263469-0dee-4524-8901-f226406d04d7",
+    "firstName": "Miles",
+    "lastName": "Williams",
+    "team": {
+      "guid": "28f163c4-fc67-47fa-84b6-bf9f8d014383",
+      "name": "Team Mannon",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 90,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "b63489c5-a87b-4a1e-bf55-19d0258501db",
+    "firstName": "Mitchell",
+    "lastName": "Gliha",
+    "team": {
+      "guid": "8f9fce45-0530-43b1-9ad5-bf3e48046137",
+      "name": "Armada Jiu Jitsu Academy",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 96,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "109fa0bc-1c22-48aa-b44c-3e8f41fc1bb2",
+    "firstName": "Mohanad",
+    "lastName": "Al",
+    "team": {
+      "guid": "b8961597-d5c1-4504-b407-3f9ad3323693",
+      "name": "Nakeeb - Tristar Gym",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 112,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "1f780f58-b6a9-42a9-afc0-9c37358f2d50",
+    "firstName": "Nicholas",
+    "lastName": "Blanton",
+    "team": {
+      "guid": "5e5b4c4b-2e97-4f53-a31f-64b2a9c5f28d",
+      "name": "Magness BJJ",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 94,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "e0c008a4-704a-44ea-a518-a599d01afab4",
+    "firstName": "Nicholas",
+    "lastName": "Sahf",
+    "team": {
+      "guid": "b263aa67-dcf9-481f-ad80-a780b18ac613",
+      "name": "10th Planet",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 30,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "90d014c8-a854-4084-9f99-f6ae6e036d8d",
+    "firstName": "Nieko",
+    "lastName": "Malone",
+    "team": {
+      "guid": "26b8a3d4-f432-4204-803b-2d790220ee2d",
+      "name": "Rider",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 26,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "63a5a547-5803-420d-9c2e-841ae8ec241e",
+    "firstName": "Peter",
+    "lastName": "Hinze",
+    "team": {
+      "guid": "2c046b64-6b08-4b90-82c8-0b197c3087b1",
+      "name": "Essential Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 20,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "1102f793-ebbd-43a0-b136-8e77b62d5db6",
+    "firstName": "Raphael",
+    "lastName": "Gomez",
+    "team": {
+      "guid": "c0c397f4-647b-481c-b71d-26727d82284a",
+      "name": "Wilson Bros Grappling",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 24,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "bf927b7a-54ed-4dcc-9d8a-9cbb53bd1a6f",
+    "firstName": "Raphael",
+    "lastName": "Ferreira",
+    "team": {
+      "guid": "22a54ae4-ac28-41c6-8c47-2897ca580ed4",
+      "name": "Unified Brazilian Jiu-Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 18,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "21623d2f-c166-474a-8553-c1f09054ee0c",
+    "firstName": "Reese",
+    "lastName": "Lafever",
+    "team": {
+      "guid": "24cbf701-8624-4d42-9cc1-0fa0b598fc9e",
+      "name": "New Wave Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 19,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "06855413-f7b4-4afc-a250-d3e288980424",
+    "firstName": "Renan",
+    "lastName": "Quintanilla",
+    "team": {
+      "guid": "b263aa67-dcf9-481f-ad80-a780b18ac613",
+      "name": "10th Planet",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 22,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "e8388303-bf97-4003-9a6e-56dfa7607532",
+    "firstName": "Rex",
+    "lastName": "Hoeffel",
+    "team": {
+      "guid": "8cf84cd8-5b8e-45e2-a139-db6ce78557b4",
+      "name": "Black Market BJJ",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 8,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "567e3355-a5ad-4c52-8c3e-ea1c7f0fd862",
+    "firstName": "Rey",
+    "lastName": "De Leon",
+    "team": {
+      "guid": "b263aa67-dcf9-481f-ad80-a780b18ac613",
+      "name": "10th Planet",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 35,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "4d9e20ca-7dd4-4d3e-9d45-604e5b4cb964",
+    "firstName": "Rick",
+    "lastName": "Marshall",
+    "team": {
+      "guid": "b263aa67-dcf9-481f-ad80-a780b18ac613",
+      "name": "10th Planet",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 167,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "3364f746-2ae8-43c5-a0c3-33b476f95622",
+    "firstName": "Riley",
+    "lastName": "Golden",
+    "team": {
+      "guid": "d9b91c27-8a59-47f2-a0c1-d50f54025da3",
+      "name": "Logos Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 57,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "5dc812c2-7c8f-4ccc-b162-a1367b2c3884",
+    "firstName": "Roberto",
+    "lastName": "Vargas",
+    "team": {
+      "guid": "1b5ce878-5e38-40b0-9ab0-12022ec442ef",
+      "name": "Garry Tonon Jiu-Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 4,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "d2ea7725-50cc-4edc-9ee4-c7dc7fe7d315",
+    "firstName": "Roger",
+    "lastName": "Santos",
+    "team": {
+      "guid": "82a62153-8e1e-46b2-a8f4-8d343517f724",
+      "name": "Back to Basics",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 12,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "9f911eb6-9d70-4717-ba28-7efe81f452e2",
+    "firstName": "Rolando",
+    "lastName": "Valdivia",
+    "team": {
+      "guid": "db45dace-3366-4192-9e33-d3d7a310e39a",
+      "name": "Halo Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 16,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "23c09aa7-831f-4074-897b-989b6b45e88c",
+    "firstName": "Ronald",
+    "lastName": "Snee",
+    "team": {
+      "guid": "035ba8dc-dade-4421-8e48-ef7f36d13091",
+      "name": "The Mat Factory",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 2,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "37238f73-431f-4549-a55d-a012f6c42c13",
+    "firstName": "Ronaldo",
+    "lastName": "Rodriguez",
+    "team": {
+      "guid": "2a2d202a-eff4-4dee-b00e-360c5bd92f95",
+      "name": "Calestine Cartel",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 10,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "663bdd14-3e4b-4c55-a0ec-4971d4f9a6f3",
+    "firstName": "Rory",
+    "lastName": "Connors",
+    "team": {
+      "guid": "221d43fe-c633-471e-892f-bb652aab4f02",
+      "name": "Connors Martial Arts Academy",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 14,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "2291b20c-f6e5-4398-8d00-9f756559bac3",
+    "firstName": "Ryan",
+    "lastName": "Dunn",
+    "team": {
+      "guid": "4096ddae-d828-4f28-ac07-ef07938e147f",
+      "name": "Radius Martial Arts Academy/10th Planet Fairfield",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 48,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "24797065-d121-47e9-ac71-2a1269a73b46",
+    "firstName": "Ryan",
+    "lastName": "Marcinkevich",
+    "team": {
+      "guid": "5d25ac04-1ffd-4794-acc2-9737576e2c7a",
+      "name": "Pride Lands BJJ",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 44,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "38157244-2d82-4adb-a5e6-b6e72a7762d0",
+    "firstName": "Ryan",
+    "lastName": "Jennerjohn",
+    "team": {
+      "guid": "4e17c605-61ad-43aa-b2d0-0be4d4e75db5",
+      "name": "Black Diamond BJJ",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 46,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "906f798b-774e-404a-9730-76ce93ac436d",
+    "firstName": "Ryan",
+    "lastName": "Moutinho",
+    "team": {
+      "guid": "b263aa67-dcf9-481f-ad80-a780b18ac613",
+      "name": "10th Planet",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 42,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "6efbf48f-8919-4820-bb5d-ef51724dc178",
+    "firstName": "Samuel",
+    "lastName": "Bonilla",
+    "team": {
+      "guid": "c36408f7-f5b9-4503-99e4-f54495338354",
+      "name": "East Coast MMA",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 36,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "e13ade5a-35ad-4620-8d51-dd5e315b12b7",
+    "firstName": "Samuel",
+    "lastName": "",
+    "team": {
+      "guid": "409ace58-503e-410c-8c7c-a5752ddcdbe5",
+      "name": "Faron Davis - 10th Planet",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 34,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "57a70dd2-3c5f-4ec2-9ce1-38e203224f38",
+    "firstName": "Sean",
+    "lastName": "Foley",
+    "team": {
+      "guid": "2c046b64-6b08-4b90-82c8-0b197c3087b1",
+      "name": "Essential Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 56,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "9cd95ce8-b9a3-4396-ae7f-7cb46dedbb20",
+    "firstName": "Sean",
+    "lastName": "Ensign",
+    "team": {
+      "guid": "c2c3d232-47d7-4bf6-9ab7-87ec066cf8cb",
+      "name": "150 Grappling",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 40,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "5811aaf4-d7f8-4dc6-a784-72655fe6e967",
+    "firstName": "Sebastian",
+    "lastName": "Valencia",
+    "team": {
+      "guid": "42a6243c-f5c7-47d9-80fb-d1305c5de36c",
+      "name": "Vital BJJ",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 38,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "eee41c8d-d2da-43b2-9d0b-899e7bdd0548",
+    "firstName": "Shawn",
+    "lastName": "Weisenburgh",
+    "team": {
+      "guid": "1dfb9f33-c3f0-4ce1-974d-e0bf383ccefe",
+      "name": "Dragonslayer WC",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 54,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "d83a601d-0aff-4b55-90de-8d2c1fcc4996",
+    "firstName": "Stephen",
+    "lastName": "Piszar",
+    "team": {
+      "guid": "1b5ce878-5e38-40b0-9ab0-12022ec442ef",
+      "name": "Garry Tonon Jiu-Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 52,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "67388b68-7c5a-4811-9742-c74c78d829f0",
+    "firstName": "Suraj",
+    "lastName": "Budhram",
+    "team": {
+      "guid": "4ffe724b-db6f-405f-ba0a-866ff5920c21",
+      "name": "Fight Sports",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 53,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "53d2e596-1b05-40cb-8bfb-def3a70a47be",
+    "firstName": "Trevor",
+    "lastName": "Price",
+    "team": {
+      "guid": "e0a142b5-1bc1-4ec7-ad29-4ada317fedff",
+      "name": "Standard Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 111,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "8559a711-13a2-45f6-8073-cf495841a2fd",
+    "firstName": "Tristan",
+    "lastName": "Sainz",
+    "team": {
+      "guid": "b073a791-51ca-467f-af3f-0821f7cf565b",
+      "name": "Team Alpha Miami",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 49,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "7591edea-2158-4b61-9fbc-3cd67de7b416",
+    "firstName": "Troy",
+    "lastName": "Ibanez",
+    "team": {
+      "guid": "3ca512e9-8fa9-420d-a3a0-2364f0195392",
+      "name": "Caio Terra Association",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 60,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "5bf90f60-2dc8-4746-9d15-8efe921e9a1d",
+    "firstName": "Tu",
+    "lastName": "Dang",
+    "team": {
+      "guid": "495c6e7d-aed6-4603-b343-2a603961ed95",
+      "name": "Legion AJJ",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 58,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "1c635e24-b998-4338-9766-d3d5919e8413",
+    "firstName": "Tyler",
+    "lastName": "Buechner",
+    "team": {
+      "guid": "7787d94c-6d1c-46a6-9445-acaa86e5e02a",
+      "name": "Super System",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 64,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "9005c071-49b9-4941-b580-7b92291ed20e",
+    "firstName": "Tyler",
+    "lastName": "McBride",
+    "team": {
+      "guid": "0827d6bd-5097-4d18-9408-94a9d4be618f",
+      "name": "RABJJ Academy",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 62,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "ed08bf52-4efb-41b0-b364-094a39e9cd2f",
+    "firstName": "Valor",
+    "lastName": "Boyer",
+    "team": {
+      "guid": "6ac3083f-4ff2-461a-b8fd-457c41323145",
+      "name": "Movement Art",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 192,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "df3642c1-4c53-4de9-8b48-72bd08659b70",
+    "firstName": "Vincent",
+    "lastName": "Morelli",
+    "team": {
+      "guid": "c35a1866-bcfd-4e0d-8c5d-b95d96344dcd",
+      "name": "Brunson's mma",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 190,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "380efe9f-3897-49fc-aa25-3cb188918d16",
+    "firstName": "Will",
+    "lastName": "Smith",
+    "team": {
+      "guid": "8a7649fb-e924-41d7-ad51-986d01ecc21b",
+      "name": "BlackWolf Martial Arts",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 186,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "975bbf86-0210-40dc-a9db-f8e50fc95d76",
+    "firstName": "Will",
+    "lastName": "Alfano",
+    "team": {
+      "guid": "9a6ff537-8dc1-4430-9b5f-44e48ea9a498",
+      "name": "Brazilian Top Team",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 188,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "a5acd1ec-bad4-4602-8b6a-f5e66a9cd156",
+    "firstName": "Wilson",
+    "lastName": "Sojo",
+    "team": {
+      "guid": "d9b91c27-8a59-47f2-a0c1-d50f54025da3",
+      "name": "Logos Jiu Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 13,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "4c05cbf7-985e-4a3d-abe5-322b72dcbe7a",
+    "firstName": "Yared",
+    "lastName": "Velazquez",
+    "team": {
+      "guid": "f822750c-0f93-4c29-a9d2-58a1ed299727",
+      "name": "Gracie Charlottesville",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 180,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "10869ae0-9cca-4fe6-a0a2-e1e48af681c2",
+    "firstName": "Zachery",
+    "lastName": "Heath",
+    "team": {
+      "guid": "2e909d62-eb97-4cbf-a861-7b9516c186cb",
+      "name": "Pedigo submission fighting",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 178,
+    "identityPersonGuid": null
+  },
+  {
+    "guid": "fce278cf-c58e-4367-9c9b-70ee6c43d319",
+    "firstName": "Zane",
+    "lastName": "Nguyen",
+    "team": {
+      "guid": "626f01e3-d904-476e-ad12-0ec3f7b2ad8d",
+      "name": "Active Jiu-Jitsu",
+      "abbreviation": null
+    },
+    "city": null,
+    "zipCode": null,
+    "state": null,
+    "weightClass": {
+      "guid": "d073ce8f-c1a1-411d-9f39-b4437eacb819",
+      "name": "-66",
+      "division": {
+        "guid": "ea86e299-7b42-4924-8f79-625db86e92cf",
+        "maskSeeds": false,
+        "showSeedsTo": 0,
+        "measurementUnit": "kg"
+      },
+      "sequence": 1
+    },
+    "seed": 184,
+    "identityPersonGuid": null
+  }
+]

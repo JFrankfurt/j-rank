@@ -1,8 +1,8 @@
 'use client'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import styles from './page.module.scss'
 import { useDebounce } from '@uidotdev/usehooks'
-import Athletes from './components/Athletes'
+import Athletes, { Gender } from './components/Athletes'
 import Toggle from './components/Toggle'
 import Button from './components/Button'
 
@@ -14,16 +14,19 @@ let formattedDate =
   '/' +
   currentDate.getFullYear()
 
-enum Gender {
-  Male,
-  Female,
-}
 
 export default function Home() {
   const [search, setSearch] = useState('')
   const [gender, setGender] = useState(Gender.Male)
   const [weightClass, setWeightClass] = useState('P4P')
   const debouncedSearchTerm = useDebounce(search, 300)
+
+  const [athletes, setAthletes] = useState<any>([])
+  useEffect(() => {
+    fetch(`/search${search ? `?search=${search}` : ''}`)
+      .then((response) => response.json())
+      .then((data) => setAthletes(data.response))
+  }, [search])
 
   return (
     <main className={styles.root}>
@@ -35,7 +38,7 @@ export default function Home() {
         <input
           id="search"
           name="search"
-          placeholder="Search by name, school, country, or event"
+          placeholder="Search by name or school"
           type="text"
           value={search}
           className={styles.input}
@@ -55,7 +58,6 @@ export default function Home() {
         />
         {gender === Gender.Male ? (
           <>
-            <Button onClick={() => setWeightClass('P4P')}>P4P</Button>
             <Button onClick={() => setWeightClass('135')}>135</Button>
             <Button onClick={() => setWeightClass('145')}>145</Button>
             <Button onClick={() => setWeightClass('155')}>155</Button>
@@ -67,8 +69,8 @@ export default function Home() {
         ) : (
           <>
             <Button>P4P</Button>
-            <Button onClick={() => setWeightClass('135')}>115</Button>
-            <Button onClick={() => setWeightClass('135')}>125</Button>
+            <Button onClick={() => setWeightClass('115')}>115</Button>
+            <Button onClick={() => setWeightClass('125')}>125</Button>
             <Button onClick={() => setWeightClass('135')}>135</Button>
             <Button onClick={() => setWeightClass('145')}>145</Button>
             <Button onClick={() => setWeightClass('145+')}>145+</Button>
@@ -76,7 +78,7 @@ export default function Home() {
         )}
       </div>
 
-      <Athletes search={debouncedSearchTerm} />
+      <Athletes athletes={athletes} />
     </main>
   )
 }
