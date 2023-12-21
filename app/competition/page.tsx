@@ -9,6 +9,7 @@ import Athletes, {
   MaleWeightClass,
 } from '../components/Athletes'
 import Toggle from '../components/Toggle'
+import Matches, { Match } from '../components/Matches'
 
 function removeElementFromArray(array: any[], index: number) {
   const newArray = [...array]
@@ -18,16 +19,29 @@ function removeElementFromArray(array: any[], index: number) {
 }
 
 export default function Competition() {
+  const [compNumber, setCompNumber] = useState('')
   const [competitors, setCompetitors] = useState<Competitor[]>([])
   const [editingCompetitor, setEditingCompetitor] = useState<null | number>(
     null
   )
-  const [compNumber, setCompNumber] = useState('')
+  const [matches, setMatches] = useState<Match[]>([])
+  const [editingMatch, setEditingMatch] = useState<null | number>(null)
 
   function handleAthleteRemove(i: number) {
     setEditingCompetitor(null)
     setCompetitors(removeElementFromArray(competitors, i))
   }
+  function handleMatchRemove(i: number) {
+    setEditingMatch(null)
+    setMatches(removeElementFromArray(matches, i))
+  }
+  function handleWinnerSelection(winner: 0 | 1 | undefined) {
+    if (editingMatch === null) return
+    const updatedMatches = [...matches]
+    updatedMatches[editingMatch].winner = winner
+    setMatches(updatedMatches)
+  }
+
   const handleCompetitorFieldChange =
     (i: number, field: keyof Competitor) =>
     (e: ChangeEvent<HTMLInputElement>) => {
@@ -43,6 +57,8 @@ export default function Competition() {
   }
   function createNewMatch() {
     setEditingCompetitor(null)
+    setMatches([...matches, { competitors: [], winner: undefined }])
+    setEditingMatch(matches.length)
   }
   function handleGenderToggle() {
     if (editingCompetitor === null) return
@@ -75,6 +91,34 @@ export default function Competition() {
     }
     setCompetitors(updatedCompetitors)
   }
+
+  function handleMatchCompetitorSelection(
+    competitorIndex: 0 | 1,
+    competitor: Competitor | undefined
+  ) {
+    if (editingMatch === null) return
+    const updatedMatches = [...matches]
+    if (!updatedMatches[editingMatch]) {
+      console.error('Match not found')
+      return
+    }
+    const updatedMatch = { ...updatedMatches[editingMatch] }
+    if (!updatedMatch.competitors) {
+      updatedMatch.competitors = [undefined, undefined]
+    }
+    updatedMatch.competitors[competitorIndex] = competitor
+    updatedMatches[editingMatch] = updatedMatch
+    setMatches(updatedMatches)
+  }
+
+  function getWinnerValue(winner: 0 | 1 | undefined) {
+    if (editingMatch === null) return ''
+    if (winner === undefined || matches[editingMatch].competitors.length !== 2) return ''
+    const winningCompetitor = matches[editingMatch].competitors[winner] 
+    if (!winningCompetitor) return ''
+    return `${winningCompetitor.firstName} ${winningCompetitor.lastName}`
+  }
+
   return (
     <main className={styles.root}>
       <h1>TNJJ{compNumber && ` ${compNumber}`}</h1>
@@ -91,7 +135,7 @@ export default function Competition() {
           />
         </label>
       </section>
-      <section>
+      <section style={{ margin: '1em 0' }}>
         <Button
           onClick={() => {
             setCompetitors([
@@ -107,7 +151,7 @@ export default function Competition() {
           <>
             <div className={styles.editor}>
               <div>
-                <h2>Editing: {editingCompetitor}</h2>
+                <h3>Editing: {editingCompetitor}</h3>
                 <label htmlFor="firstName">
                   <p>First Name</p>
                   <input
@@ -187,7 +231,7 @@ export default function Competition() {
                 </label>
               </div>
               <div>
-                <h2>Rating Initialization</h2>
+                <h2>Rating</h2>
                 <ul className={styles.ratingShortcuts}>
                   <li onClick={() => handleRatingShortcut(1200)}>
                     white: 1200
@@ -203,9 +247,7 @@ export default function Competition() {
                     black: 2000
                   </li>
                 </ul>
-              </div>
-              <div>
-                <h2>Weight Class Shortcuts</h2>
+                <h2 style={{ marginTop: '1em' }}>Weight Class</h2>
                 <ul className={styles.ratingShortcuts}>
                   {Object.values(
                     competitors[editingCompetitor].gender === Gender.Male
@@ -224,15 +266,107 @@ export default function Competition() {
         )}
       </section>
 
-      <Athletes
-        athletes={competitors}
-        onAthleteClick={(i) => setEditingCompetitor(i)}
-        onAthleteRemoveClick={handleAthleteRemove}
-      />
+      {competitors.length > 0 && (
+        <Athletes
+          athletes={competitors}
+          onAthleteClick={(i) => setEditingCompetitor(i)}
+          onAthleteRemoveClick={handleAthleteRemove}
+        />
+      )}
       {competitors.length > 1 && (
         <section>
           <h1>Matches</h1>
           <Button onClick={createNewMatch}>Add match</Button>
+          {editingMatch !== null && (
+            <>
+              <div className={styles.editor}>
+                <div>
+                  <h3>Editing: {editingMatch}</h3>
+                  <label htmlFor="competitor 1">
+                    <p>Competitor 1</p>
+                    <select
+                      name="competitor 1"
+                      id="competitor 1"
+                      placeholder="select competitor"
+                      onChange={(e) => {
+                        if (e.target.value === '') {
+                          handleMatchCompetitorSelection(0, undefined)
+                        }
+                        handleMatchCompetitorSelection(
+                          0,
+                          competitors[parseInt(e.target.value)]
+                        )
+                      }}
+                    >
+                      <option value="">select competitor</option>
+                      {competitors.map((competitor, i) => (
+                        <option key={`competitor1-${i}`} value={i}>
+                          {competitor.firstName} {competitor.lastName}
+                        </option>
+                      ))}
+                    </select>
+                  </label>
+                  <label htmlFor="competitor 2">
+                    <p>Competitor 2</p>
+                    <select
+                      name="competitor 2"
+                      id="competitor 2"
+                      placeholder="select competitor"
+                      onChange={(e) => {
+                        if (e.target.value === '') {
+                          handleMatchCompetitorSelection(1, undefined)
+                        }
+                        handleMatchCompetitorSelection(
+                          1,
+                          competitors[parseInt(e.target.value)]
+                        )
+                      }}
+                    >
+                      <option value="">select competitor</option>
+                      {competitors.map((competitor, i) => (
+                        <option key={`competitor2-${i}`} value={i}>
+                          {competitor.firstName} {competitor.lastName}
+                        </option>
+                      ))}
+                    </select>
+                  </label>
+                  <label htmlFor="winner">
+                    <p>Winner</p>
+                    <select
+                      name="winner"
+                      id="winner"
+                      placeholder="select winner"
+                      value={getWinnerValue(matches[editingMatch].winner)}
+                      disabled={
+                        matches[editingMatch]?.competitors?.length !== 2
+                      }
+                      onChange={(e) => {
+                        if (e.target.value === '') {
+                          handleWinnerSelection(undefined)
+                        }
+                        handleWinnerSelection(parseInt(e.target.value) as 0 | 1)
+                      }}
+                    >
+                      <option value="">select winner</option>
+                      {matches[editingMatch].competitors.map(
+                        (competitor, i) => (
+                          <option key={`winner-${i}`} value={i}>
+                            {competitor?.firstName} {competitor?.lastName}
+                          </option>
+                        )
+                      )}
+                    </select>
+                  </label>
+                </div>
+              </div>
+              <Button onClick={() => setEditingMatch(null)}>Done</Button>
+            </>
+          )}
+          <Matches
+            matches={matches}
+            onMatchClick={(i) => setEditingMatch(i)}
+            onMatchRemoveClick={handleMatchRemove}
+          />
         </section>
       )}
     </main>

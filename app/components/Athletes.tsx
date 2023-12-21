@@ -53,7 +53,7 @@ export default function Athletes({ athletes, onAthleteClick, onAthleteRemoveClic
     <table className={styles.root}>
       <thead>
         <tr>
-          <th>Rank</th>
+          <th>#</th>
           <th>Name</th>
           <th></th>
           <th>Δ</th>
@@ -63,7 +63,7 @@ export default function Athletes({ athletes, onAthleteClick, onAthleteRemoveClic
         </tr>
       </thead>
       <tbody>
-        {athletes.map((athlete: any, i: number) => (
+        {athletes.map((athlete: Competitor, i: number) => (
           <tr
             key={i}
             onClick={() => handleClick(i)}
