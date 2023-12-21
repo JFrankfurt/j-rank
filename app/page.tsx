@@ -14,19 +14,20 @@ let formattedDate =
   '/' +
   currentDate.getFullYear()
 
-
 export default function Home() {
   const [search, setSearch] = useState('')
   const [gender, setGender] = useState(Gender.Male)
-  const [weightClass, setWeightClass] = useState('P4P')
+  const [weightClass, setWeightClass] = useState('135')
   const debouncedSearchTerm = useDebounce(search, 300)
-
   const [athletes, setAthletes] = useState<any>([])
+
   useEffect(() => {
-    fetch(`/search${search ? `?search=${search}` : ''}`)
+    fetch(
+      `/search${debouncedSearchTerm ? `?search=${debouncedSearchTerm}` : ''}`
+    )
       .then((response) => response.json())
       .then((data) => setAthletes(data.response))
-  }, [search])
+  }, [debouncedSearchTerm])
 
   return (
     <main className={styles.root}>
