@@ -1,5 +1,6 @@
 'use client'
 import styles from './Athletes.module.scss'
+import tableStyles from './Table.module.scss'
 
 export enum Gender {
   Male = 'Male',
@@ -33,50 +34,65 @@ export enum FemaleWeightClass {
   Female_145Plus = '145+ lb',
 }
 
-
 interface AthletesProps {
+  editingIndex?: number | null
   athletes: Competitor[]
   onAthleteClick?: (i: number) => void
   onAthleteRemoveClick?: (i: number) => void
 }
 
-export default function Athletes({ athletes, onAthleteClick, onAthleteRemoveClick }: AthletesProps) {
+export default function Athletes({
+  athletes,
+  editingIndex,
+  onAthleteClick,
+  onAthleteRemoveClick,
+}: AthletesProps) {
   const handleClick = (i: number) => {
     if (onAthleteClick) onAthleteClick(i)
   }
-  const handleRemove =
-    (i: number) => (e: any) => {
-      e.stopPropagation()
-      if (onAthleteRemoveClick) onAthleteRemoveClick(i)
-    }
+  const handleRemove = (i: number) => (e: any) => {
+    e.stopPropagation()
+    if (onAthleteRemoveClick) onAthleteRemoveClick(i)
+  }
   return (
     <table className={styles.root}>
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>Name</th>
-          <th></th>
-          <th>Δ</th>
-          <th>Rating</th>
-          <th>Team</th>
-          {onAthleteRemoveClick && <th></th>}
+      <thead className={tableStyles.thead}>
+        <tr className={tableStyles.tr}>
+          <th className={tableStyles.th}>#</th>
+          <th className={tableStyles.th}>Name</th>
+          <th className={tableStyles.th}></th>
+          <th className={tableStyles.th}>Δ</th>
+          <th className={tableStyles.th}>Rating</th>
+          <th className={tableStyles.th}>Team</th>
+          {onAthleteRemoveClick && <th className={tableStyles.th}></th>}
         </tr>
       </thead>
-      <tbody>
+      <tbody className={tableStyles.tbody}>
         {athletes.map((athlete: Competitor, i: number) => (
           <tr
             key={i}
+            className={
+              tableStyles.tr +
+              ' ' +
+              (i === editingIndex ? tableStyles.editingRow : '')
+            }
             onClick={() => handleClick(i)}
             style={{ cursor: onAthleteClick ? 'pointer' : 'initial' }}
           >
-            <td>{i}</td>
-            <td>{athlete.firstName || 'firstName'}</td>
-            <td>{athlete.lastName || 'lastName'}</td>
-            <td>{athlete.delta || '--'}</td>
-            <td>{athlete.rating || 'unknown'}</td>
-            <td>{athlete.team || 'unknown'}</td>
+            <td className={tableStyles.td}>{i}</td>
+            <td className={tableStyles.td}>
+              {athlete.firstName || 'firstName'}
+            </td>
+            <td className={tableStyles.td}>{athlete.lastName || 'lastName'}</td>
+            <td className={tableStyles.td}>{athlete.delta || '--'}</td>
+            <td className={tableStyles.td}>{athlete.rating || 'unknown'}</td>
+            <td className={tableStyles.td}>{athlete.team || 'unknown'}</td>
             {onAthleteRemoveClick && (
-              <td onClick={handleRemove(i)} style={{ cursor: 'pointer' }}>
+              <td
+                className={tableStyles.td}
+                onClick={handleRemove(i)}
+                style={{ cursor: 'pointer' }}
+              >
                 ❌
               </td>
             )}

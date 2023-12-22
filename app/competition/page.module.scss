@@ -14,7 +14,8 @@
   justify-content: flex-start;
   flex-wrap: wrap;
   margin-top: 1em;
-  > div {
+
+  >div {
     margin: 0 0 1em 0;
     min-width: 50%
   }
@@ -22,9 +23,32 @@
 
 .ratingShortcuts {
   padding-left: 1em;
-  > li {
+
+  >li {
     cursor: pointer;
     font-style: italic;
     text-decoration: underline;
   }
+}
+
+.editableTitle {
+  width: calc(100% - 20px);
+  font-size: 1.5em;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px dashed #bababa;
+  background-color: transparent;
+  color: #000;
+  text-align: center;
+  box-sizing: border-box;
+  transition: all 250ms ease;
+  cursor: text;
+}
+
+.editableTitle:focus {
+  background-color: #efefef;
+  border-color: #0038FF;
+  outline: 0;
+  box-shadow: none;
 }

@@ -11,21 +11,81 @@ import Athletes, {
 import Toggle from '../components/Toggle'
 import Matches, { Match } from '../components/Matches'
 
+interface FetchError extends Error {
+  response?: Response
+  statusCode?: number
+}
+
 function removeElementFromArray(array: any[], index: number) {
   const newArray = [...array]
-  console.log('removing', index)
   newArray.splice(index, 1)
   return newArray
 }
 
 export default function Competition() {
-  const [compNumber, setCompNumber] = useState('')
+  const [competitionName, setCompetitionName] = useState('')
   const [competitors, setCompetitors] = useState<Competitor[]>([])
   const [editingCompetitor, setEditingCompetitor] = useState<null | number>(
     null
   )
   const [matches, setMatches] = useState<Match[]>([])
   const [editingMatch, setEditingMatch] = useState<null | number>(null)
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState<Error | null>(null)
+  const [updateStatusMessage, setUpdateStatusMessage] = useState('')
+
+  if (loading && (editingCompetitor !== null || editingMatch !== null)) {
+    setEditingCompetitor(null)
+    setEditingMatch(null)
+  }
+
+  async function handleUpdateClick() {
+    try {
+      setError(null)
+      setLoading(true)
+
+      if (
+        typeof competitionName !== 'string' ||
+        competitionName.trim() === ''
+      ) {
+        throw new Error('Competition number is required.')
+      }
+      if (!Array.isArray(competitors) || competitors.length === 0) {
+        throw new Error('Competitors list is required and cannot be empty.')
+      }
+      if (!Array.isArray(matches) || matches.length === 0) {
+        throw new Error('Matches list is required and cannot be empty.')
+      }
+
+      const response = await fetch(`/competition/api`, {
+        method: 'POST',
+        body: JSON.stringify({
+          competitionName: `TNJJ ${competitionName}`,
+          competitors,
+          matches,
+        }),
+      })
+      console.log('response.ok', response.ok)
+      if (!response.ok) {
+        const error: FetchError = new Error(`HTTP error: ${response.status}`)
+        error.response = response
+        error.statusCode = response.status
+        throw error
+      } else {
+        setUpdateStatusMessage('success')
+        setTimeout(() => setUpdateStatusMessage(''), 1000)
+      }
+    } catch (e) {
+      if (e instanceof Error) {
+        setError(e as FetchError)
+      } else {
+        setError(new Error('An unknown error occurred'))
+      }
+      console.error(e)
+    } finally {
+      setLoading(false)
+    }
+  }
 
   function handleAthleteRemove(i: number) {
     setEditingCompetitor(null)
@@ -52,8 +112,8 @@ export default function Competition() {
       }
       setCompetitors(updatedCompetitors)
     }
-  function handleCompNumberChange(e: ChangeEvent<HTMLInputElement>) {
-    setCompNumber(e.target.value)
+  function handleCompetitionNameChange(e: ChangeEvent<HTMLInputElement>) {
+    setCompetitionName(e.target.value)
   }
   function createNewMatch() {
     setEditingCompetitor(null)
@@ -113,34 +173,32 @@ export default function Competition() {
 
   function getWinnerValue(winner: 0 | 1 | undefined) {
     if (editingMatch === null) return ''
-    if (winner === undefined || matches[editingMatch].competitors.length !== 2) return ''
-    const winningCompetitor = matches[editingMatch].competitors[winner] 
+    if (winner === undefined || matches[editingMatch].competitors.length !== 2)
+      return ''
+    const winningCompetitor = matches[editingMatch].competitors[winner]
     if (!winningCompetitor) return ''
     return `${winningCompetitor.firstName} ${winningCompetitor.lastName}`
   }
 
   return (
     <main className={styles.root}>
-      <h1>TNJJ{compNumber && ` ${compNumber}`}</h1>
-      <section>
-        <label htmlFor="competition">
-          <p>competition #</p>
-          <input
-            type="number"
-            value={compNumber}
-            onChange={handleCompNumberChange}
-            autoFocus
-            id="competition"
-            placeholder="competition number"
-          />
-        </label>
-      </section>
+      <input
+        className={styles.editableTitle}
+        disabled={loading}
+        type="text"
+        value={competitionName}
+        onChange={handleCompetitionNameChange}
+        autoFocus
+        id="competition"
+        placeholder="competition name"
+      />
       <section style={{ margin: '1em 0' }}>
         <Button
+          disabled={loading}
           onClick={() => {
             setCompetitors([
               ...competitors,
-              { firstName: '', lastName: '', team: '' },
+              { firstName: '', lastName: '', team: '', gender: Gender.Male },
             ])
             setEditingCompetitor(competitors.length)
           }}
@@ -155,6 +213,7 @@ export default function Competition() {
                 <label htmlFor="firstName">
                   <p>First Name</p>
                   <input
+                    disabled={loading}
                     type="text"
                     id="firstName"
                     placeholder="firstName"
@@ -168,6 +227,7 @@ export default function Competition() {
                 <label htmlFor="lastName">
                   <p>Last Name</p>
                   <input
+                    disabled={loading}
                     type="text"
                     id="lastName"
                     placeholder="lastName"
@@ -181,6 +241,7 @@ export default function Competition() {
                 <label htmlFor="team">
                   <p>Team</p>
                   <input
+                    disabled={loading}
                     type="text"
                     id="team"
                     placeholder="team"
@@ -194,6 +255,7 @@ export default function Competition() {
                 <label htmlFor="weightClass">
                   <p>Weight Class</p>
                   <input
+                    disabled={loading}
                     type="text"
                     id="weightClass"
                     placeholder="weightClass"
@@ -207,6 +269,7 @@ export default function Competition() {
                 <label htmlFor="gender">
                   <p>Gender</p>
                   <Toggle
+                    disabled={loading}
                     id="gender"
                     checked={
                       competitors[editingCompetitor].gender === Gender.Male
@@ -219,6 +282,7 @@ export default function Competition() {
                 <label htmlFor="rating">
                   <p>Rating</p>
                   <input
+                    disabled={loading}
                     type="text"
                     id="rating"
                     placeholder="rating"
@@ -261,7 +325,12 @@ export default function Competition() {
                 </ul>
               </div>
             </div>
-            <Button onClick={() => setEditingCompetitor(null)}>Done</Button>
+            <Button
+              disabled={loading}
+              onClick={() => setEditingCompetitor(null)}
+            >
+              Done
+            </Button>
           </>
         )}
       </section>
@@ -269,6 +338,7 @@ export default function Competition() {
       {competitors.length > 0 && (
         <Athletes
           athletes={competitors}
+          editingIndex={editingCompetitor}
           onAthleteClick={(i) => setEditingCompetitor(i)}
           onAthleteRemoveClick={handleAthleteRemove}
         />
@@ -276,7 +346,9 @@ export default function Competition() {
       {competitors.length > 1 && (
         <section>
           <h1>Matches</h1>
-          <Button onClick={createNewMatch}>Add match</Button>
+          <Button onClick={createNewMatch} disabled={loading}>
+            Add match
+          </Button>
           {editingMatch !== null && (
             <>
               <div className={styles.editor}>
@@ -285,6 +357,7 @@ export default function Competition() {
                   <label htmlFor="competitor 1">
                     <p>Competitor 1</p>
                     <select
+                      disabled={loading}
                       name="competitor 1"
                       id="competitor 1"
                       placeholder="select competitor"
@@ -309,6 +382,7 @@ export default function Competition() {
                   <label htmlFor="competitor 2">
                     <p>Competitor 2</p>
                     <select
+                      disabled={loading}
                       name="competitor 2"
                       id="competitor 2"
                       placeholder="select competitor"
@@ -338,6 +412,7 @@ export default function Competition() {
                       placeholder="select winner"
                       value={getWinnerValue(matches[editingMatch].winner)}
                       disabled={
+                        loading ||
                         matches[editingMatch]?.competitors?.length !== 2
                       }
                       onChange={(e) => {
@@ -359,16 +434,30 @@ export default function Competition() {
                   </label>
                 </div>
               </div>
-              <Button onClick={() => setEditingMatch(null)}>Done</Button>
+              <Button disabled={loading} onClick={() => setEditingMatch(null)}>
+                Done
+              </Button>
             </>
           )}
           <Matches
             matches={matches}
+            editingIndex={editingMatch}
             onMatchClick={(i) => setEditingMatch(i)}
             onMatchRemoveClick={handleMatchRemove}
           />
         </section>
       )}
+      <div>
+        <Button
+          style={{ marginTop: '1em' }}
+          onClick={handleUpdateClick}
+          disabled={loading}
+        >
+          Submit results
+        </Button>
+        <span>{updateStatusMessage}</span>
+      </div>
+      {error && <pre style={{ marginTop: '1em' }}>{error.toString()}</pre>}
     </main>
   )
 }

@@ -1,0 +1,36 @@
+.thead {
+  background-color: #f2f2f2;
+}
+
+.th {
+  text-align: left;
+  padding: 10px;
+}
+
+.td {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.tr:nth-child(odd) {
+  background-color: #fcfcfc;
+}
+
+.tr:nth-child(even) {
+  background-color: #efefef;
+}
+
+@keyframes pulseBackground {
+  0% {
+    background-color: rgba(0, 55, 255, 0.8);
+  }
+
+  100% {
+    background-color: #0038FF;
+  }
+}
+
+.tr.editingRow {
+  color: #f2f2f2;
+  animation: pulseBackground alternate 1s infinite;
+}
