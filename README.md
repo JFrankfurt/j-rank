@@ -2,23 +2,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, run the development server (you will need to install pnpm):
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
 pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
@@ -29,8 +17,22 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Todo
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- structure backend schema
+- add a competitor search feature
+- add a screen for viewing historical matches
+- add a competitor summary page
+  - past competitions and net rating change
+  - past matches and individual rating change
+  - instagram handle (pull profile pic?)
+  - name
+  - weight class
+  - gender
+  - belt level
+- add the ability to search for pre-existing competitors in the match creation screen
+- add the ability to create new competitors w/o creating a new match
+- add the ability to edit existing competitors
+- add an authentication mechanism for system admins
+- add an account creation mechanism for competitors (/ event organizers?)
+- add the ability to link out to match videos

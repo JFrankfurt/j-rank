@@ -7,29 +7,6 @@
   position: relative;
 }
 
-.editor {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  margin-top: 1em;
-
-  >div {
-    margin: 0 0 1em 0;
-    min-width: 50%
-  }
-}
-
-.ratingShortcuts {
-  padding-left: 1em;
-
-  >li {
-    cursor: pointer;
-    font-style: italic;
-    text-decoration: underline;
-  }
-}
 
 .editableTitle {
   width: calc(100% - 20px);

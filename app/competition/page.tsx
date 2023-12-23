@@ -10,6 +10,7 @@ import Athletes, {
 } from '../components/Athletes'
 import Toggle from '../components/Toggle'
 import Matches, { Match } from '../components/Matches'
+import { CompetitorEditor } from '../components/CompetitorEditor'
 
 interface FetchError extends Error {
   response?: Response
@@ -205,126 +206,10 @@ export default function Competition() {
         >
           Add competitor
         </Button>
+
         {editingCompetitor !== null && (
           <>
-            <div className={styles.editor}>
-              <div>
-                <h3>Editing: {editingCompetitor}</h3>
-                <label htmlFor="firstName">
-                  <p>First Name</p>
-                  <input
-                    disabled={loading}
-                    type="text"
-                    id="firstName"
-                    placeholder="firstName"
-                    value={competitors[editingCompetitor].firstName}
-                    onChange={handleCompetitorFieldChange(
-                      editingCompetitor,
-                      'firstName'
-                    )}
-                  />
-                </label>
-                <label htmlFor="lastName">
-                  <p>Last Name</p>
-                  <input
-                    disabled={loading}
-                    type="text"
-                    id="lastName"
-                    placeholder="lastName"
-                    value={competitors[editingCompetitor].lastName}
-                    onChange={handleCompetitorFieldChange(
-                      editingCompetitor,
-                      'lastName'
-                    )}
-                  />
-                </label>
-                <label htmlFor="team">
-                  <p>Team</p>
-                  <input
-                    disabled={loading}
-                    type="text"
-                    id="team"
-                    placeholder="team"
-                    value={competitors[editingCompetitor].team}
-                    onChange={handleCompetitorFieldChange(
-                      editingCompetitor,
-                      'team'
-                    )}
-                  />
-                </label>
-                <label htmlFor="weightClass">
-                  <p>Weight Class</p>
-                  <input
-                    disabled={loading}
-                    type="text"
-                    id="weightClass"
-                    placeholder="weightClass"
-                    value={competitors[editingCompetitor].weightClass || ''}
-                    onChange={handleCompetitorFieldChange(
-                      editingCompetitor,
-                      'weightClass'
-                    )}
-                  />
-                </label>
-                <label htmlFor="gender">
-                  <p>Gender</p>
-                  <Toggle
-                    disabled={loading}
-                    id="gender"
-                    checked={
-                      competitors[editingCompetitor].gender === Gender.Male
-                    }
-                    onChange={handleGenderToggle}
-                    offContent={'♀'}
-                    onContent={'♂'}
-                  />
-                </label>
-                <label htmlFor="rating">
-                  <p>Rating</p>
-                  <input
-                    disabled={loading}
-                    type="text"
-                    id="rating"
-                    placeholder="rating"
-                    value={competitors[editingCompetitor].rating}
-                    onChange={handleCompetitorFieldChange(
-                      editingCompetitor,
-                      'rating'
-                    )}
-                  />
-                </label>
-              </div>
-              <div>
-                <h2>Rating</h2>
-                <ul className={styles.ratingShortcuts}>
-                  <li onClick={() => handleRatingShortcut(1200)}>
-                    white: 1200
-                  </li>
-                  <li onClick={() => handleRatingShortcut(1400)}>blue: 1400</li>
-                  <li onClick={() => handleRatingShortcut(1600)}>
-                    purple: 1600
-                  </li>
-                  <li onClick={() => handleRatingShortcut(1800)}>
-                    brown: 1800
-                  </li>
-                  <li onClick={() => handleRatingShortcut(2000)}>
-                    black: 2000
-                  </li>
-                </ul>
-                <h2 style={{ marginTop: '1em' }}>Weight Class</h2>
-                <ul className={styles.ratingShortcuts}>
-                  {Object.values(
-                    competitors[editingCompetitor].gender === Gender.Male
-                      ? MaleWeightClass
-                      : FemaleWeightClass
-                  ).map((wc) => (
-                    <li onClick={() => handleWeightClassShortcut(wc)} key={wc}>
-                      {wc}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
+            <CompetitorEditor />
             <Button
               disabled={loading}
               onClick={() => setEditingCompetitor(null)}
@@ -447,16 +332,18 @@ export default function Competition() {
           />
         </section>
       )}
-      <div>
-        <Button
-          style={{ marginTop: '1em' }}
-          onClick={handleUpdateClick}
-          disabled={loading}
-        >
-          Submit results
-        </Button>
-        <span>{updateStatusMessage}</span>
-      </div>
+      {competitors.length >= 2 && (
+        <div>
+          <Button
+            style={{ marginTop: '1em' }}
+            onClick={handleUpdateClick}
+            disabled={loading}
+          >
+            Submit results
+          </Button>
+          <span>{updateStatusMessage}</span>
+        </div>
+      )}
       {error && <pre style={{ marginTop: '1em' }}>{error.toString()}</pre>}
     </main>
   )
