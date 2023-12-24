@@ -10,7 +10,7 @@ export enum Gender {
 export interface Competitor {
   firstName?: string
   lastName?: string
-  weightClass?: FemaleWeightClass | MaleWeightClass
+  weightClass?: FemaleWeightClass | MaleWeightClass | string
   team?: string
   delta?: string
   rating?: number

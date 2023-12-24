@@ -23,7 +23,7 @@ export default function Home() {
 
   useEffect(() => {
     fetch(
-      `/search${debouncedSearchTerm ? `?search=${debouncedSearchTerm}` : ''}`
+      `/competitor/search/api${debouncedSearchTerm ? `?search=${debouncedSearchTerm}` : ''}`
     )
       .then((response) => response.json())
       .then((data) => setAthletes(data.response))

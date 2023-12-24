@@ -1,16 +1,10 @@
 'use client'
 import { ChangeEvent, useState } from 'react'
+import Athletes, { Competitor, Gender } from '../components/Athletes'
 import Button from '../components/Button'
-import styles from './page.module.scss'
-import Athletes, {
-  Competitor,
-  FemaleWeightClass,
-  Gender,
-  MaleWeightClass,
-} from '../components/Athletes'
-import Toggle from '../components/Toggle'
-import Matches, { Match } from '../components/Matches'
 import { CompetitorEditor } from '../components/CompetitorEditor'
+import Matches, { Match } from '../components/Matches'
+import styles from './page.module.scss'
 
 interface FetchError extends Error {
   response?: Response
@@ -49,7 +43,7 @@ export default function Competition() {
         typeof competitionName !== 'string' ||
         competitionName.trim() === ''
       ) {
-        throw new Error('Competition number is required.')
+        throw new Error('Competition name is required.')
       }
       if (!Array.isArray(competitors) || competitors.length === 0) {
         throw new Error('Competitors list is required and cannot be empty.')
@@ -61,7 +55,7 @@ export default function Competition() {
       const response = await fetch(`/competition/api`, {
         method: 'POST',
         body: JSON.stringify({
-          competitionName: `TNJJ ${competitionName}`,
+          competitionName,
           competitors,
           matches,
         }),
@@ -103,16 +97,12 @@ export default function Competition() {
     setMatches(updatedMatches)
   }
 
-  const handleCompetitorFieldChange =
-    (i: number, field: keyof Competitor) =>
-    (e: ChangeEvent<HTMLInputElement>) => {
-      const updatedCompetitors = [...competitors]
-      updatedCompetitors[i] = {
-        ...updatedCompetitors[i],
-        [field]: e.target.value,
-      }
-      setCompetitors(updatedCompetitors)
-    }
+  const handleCompetitorChange = (c: Competitor) => {
+    if (editingCompetitor === null) return
+    const updatedCompetitors = [...competitors]
+    updatedCompetitors[editingCompetitor] = c
+    setCompetitors(updatedCompetitors)
+  }
   function handleCompetitionNameChange(e: ChangeEvent<HTMLInputElement>) {
     setCompetitionName(e.target.value)
   }
@@ -120,37 +110,6 @@ export default function Competition() {
     setEditingCompetitor(null)
     setMatches([...matches, { competitors: [], winner: undefined }])
     setEditingMatch(matches.length)
-  }
-  function handleGenderToggle() {
-    if (editingCompetitor === null) return
-    const updatedCompetitors = [...competitors]
-    updatedCompetitors[editingCompetitor] = {
-      ...updatedCompetitors[editingCompetitor],
-      weightClass: undefined,
-      gender:
-        updatedCompetitors[editingCompetitor].gender === Gender.Male
-          ? Gender.Female
-          : Gender.Male,
-    }
-    setCompetitors(updatedCompetitors)
-  }
-  function handleRatingShortcut(value: number) {
-    if (editingCompetitor === null) return
-    const updatedCompetitors = [...competitors]
-    updatedCompetitors[editingCompetitor] = {
-      ...updatedCompetitors[editingCompetitor],
-      rating: value,
-    }
-    setCompetitors(updatedCompetitors)
-  }
-  function handleWeightClassShortcut(wc: MaleWeightClass | FemaleWeightClass) {
-    if (editingCompetitor === null) return
-    const updatedCompetitors = [...competitors]
-    updatedCompetitors[editingCompetitor] = {
-      ...updatedCompetitors[editingCompetitor],
-      weightClass: wc,
-    }
-    setCompetitors(updatedCompetitors)
   }
 
   function handleMatchCompetitorSelection(
@@ -209,7 +168,10 @@ export default function Competition() {
 
         {editingCompetitor !== null && (
           <>
-            <CompetitorEditor />
+            <CompetitorEditor
+              competitor={competitors[editingCompetitor]}
+              onChange={handleCompetitorChange}
+            />
             <Button
               disabled={loading}
               onClick={() => setEditingCompetitor(null)}

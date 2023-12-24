@@ -1,6 +1,6 @@
 import { readFileSync } from 'fs'
+import { NextRequest, NextResponse } from 'next/server'
 import { resolve } from 'path'
-import { NextResponse } from 'next/server'
 
 let data: Array<any>
 try {
@@ -29,7 +29,7 @@ const searchMockData = (searchString: string) => {
   )
 }
 
-export async function GET(request: Request) {
+export async function GET(request: NextRequest) {
   const url = new URL(request.url)
   const search = url.searchParams.get('search')
   return NextResponse.json({
