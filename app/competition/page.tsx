@@ -34,7 +34,7 @@ export default function Competition() {
     setEditingMatch(null)
   }
 
-  async function handleUpdateClick() {
+    async function handleUpdateClick() {
     try {
       setError(null)
       setLoading(true)

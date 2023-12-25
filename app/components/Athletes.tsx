@@ -15,6 +15,8 @@ export interface Competitor {
   delta?: string
   rating?: number
   gender?: Gender
+  instagram?: string
+  email?: string
 }
 
 export enum MaleWeightClass {

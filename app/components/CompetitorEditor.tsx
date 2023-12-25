@@ -108,6 +108,32 @@ export const CompetitorEditor = ({
               }
             />
           </label>
+          <label htmlFor="instagram">
+            <p>Instagram</p>
+            <input
+              disabled={disabled}
+              type="text"
+              id="instagram"
+              placeholder="instagram"
+              value={competitor.instagram}
+              onChange={({ target: { value } }) =>
+                onChange({ ...competitor, instagram: value })
+              }
+            />
+          </label>
+          <label htmlFor="email">
+            <p>Email</p>
+            <input
+              disabled={disabled}
+              type="text"
+              id="email"
+              placeholder="email"
+              value={competitor.email}
+              onChange={({ target: { value } }) =>
+                onChange({ ...competitor, email: value })
+              }
+            />
+          </label>
         </div>
         <div>
           <h2>Rating</h2>
