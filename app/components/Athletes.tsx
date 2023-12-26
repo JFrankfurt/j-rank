@@ -8,6 +8,7 @@ export enum Gender {
 }
 
 export interface Competitor {
+  uuid?: string
   firstName?: string
   lastName?: string
   weightClass?: FemaleWeightClass | MaleWeightClass | string

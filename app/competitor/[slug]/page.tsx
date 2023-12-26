@@ -16,7 +16,7 @@ export default function Competitor({ params: { slug } }: CompetitorPageProps) {
 }
 
 export async function generateStaticParams() {
-  const competitors: Competitor[] = await fetch('https://.../competitors').then(
+  const competitors: Competitor[] = await fetch('/competitor/api').then(
     (res) => res.json()
   )
 
