@@ -10,9 +10,6 @@ interface FetchError extends Error {
 }
 
 const INITIAL_COMPETITOR = {
-  firstName: 'Jordan',
-  lastName: 'Frankfurt',
-  rating: Math.floor(Math.random() * 1000),
   gender: Gender.Male,
 }
 
@@ -37,7 +34,7 @@ export default function AddCompetitor() {
 
       const response = await fetch(`/competitor/api`, {
         method: 'POST',
-        body: JSON.stringify({ competitor }),
+        body: JSON.stringify(competitor),
       })
       console.log('response.ok', response.ok)
       if (!response.ok) {
@@ -69,8 +66,18 @@ export default function AddCompetitor() {
         competitor={competitor}
         onChange={setCompetitor}
       />
-      <Button disabled={loading} onClick={handleUpdateClick}>
+      <Button
+        disabled={loading}
+        onClick={handleUpdateClick}
+        style={{ marginRight: '1em' }}
+      >
         Submit
+      </Button>
+      <Button
+        disabled={loading}
+        onClick={() => setCompetitor(INITIAL_COMPETITOR)}
+      >
+        Clear
       </Button>
       <pre>{updateStatusMessage}</pre>
       <pre>{error?.toString()}</pre>

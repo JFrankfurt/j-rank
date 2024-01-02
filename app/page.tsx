@@ -26,7 +26,12 @@ export default function Home() {
       `/competitor/search/api${debouncedSearchTerm ? `?search=${debouncedSearchTerm}` : ''}`
     )
       .then((response) => response.json())
-      .then((data) => setAthletes(data.response))
+      .then(({data}) => {
+        console.log(data)
+        if (Array.isArray(data)) {
+          setAthletes(data)
+        }
+      })
   }, [debouncedSearchTerm])
 
   return (

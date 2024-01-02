@@ -1,7 +1,9 @@
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+
 CREATE TYPE Gender AS ENUM ('Male', 'Female');
 
 CREATE TABLE competitors (
-  uuid UUID PRIMARY KEY,
+  uuid UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
   first_name VARCHAR(255) NULL,
   last_name VARCHAR(255) NULL,
   weight_class VARCHAR(50) NULL,
@@ -16,8 +18,15 @@ CREATE TABLE competitors (
 CREATE INDEX competitors_gender_idx ON competitors (gender);
 CREATE INDEX competitors_weight_class_idx ON competitors (weight_class);
 
+CREATE TABLE events (
+  uuid UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  name VARCHAR(255) NOT NULL,
+  event_date TIMESTAMP WITH TIME ZONE,
+  location VARCHAR(255)
+);
+
 CREATE TABLE matches (
-  match_uuid UUID PRIMARY KEY,
+  uuid UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
   competitor1_uuid UUID REFERENCES competitors(uuid),
   competitor2_uuid UUID REFERENCES competitors(uuid),
   winner_uuid UUID REFERENCES competitors(uuid),
@@ -25,9 +34,3 @@ CREATE TABLE matches (
   match_date TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
 
-CREATE TABLE events (
-  uuid UUID PRIMARY KEY,
-  name VARCHAR(255) NOT NULL,
-  event_date TIMESTAMP WITH TIME ZONE,
-  location VARCHAR(255)
-);

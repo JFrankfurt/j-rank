@@ -13,7 +13,7 @@ export interface Competitor {
   lastName?: string
   weightClass?: FemaleWeightClass | MaleWeightClass | string
   team?: string
-  delta?: string
+  delta?: number
   rating?: number
   gender?: Gender
   instagram?: string
@@ -82,7 +82,7 @@ export default function Athletes({
             onClick={() => handleClick(i)}
             style={{ cursor: onAthleteClick ? 'pointer' : 'initial' }}
           >
-            <td className={tableStyles.td}>{i}</td>
+            <td className={tableStyles.td}>{i+1}</td>
             <td className={tableStyles.td}>
               {athlete.firstName || 'firstName'}
             </td>

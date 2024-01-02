@@ -9,10 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/pg": "^8.10.9",
     "@uidotdev/usehooks": "^2.4.1",
     "@vercel/kv": "^1.0.1",
-    "@vercel/postgres": "^0.5.1",
     "next": "14.0.1",
+    "pg": "^8.11.3",
     "react": "^18",
     "react-dom": "^18"
   },
