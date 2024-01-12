@@ -34,3 +34,12 @@ CREATE TABLE matches (
   match_date TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
 
+CREATE TABLE rating_history (
+    history_id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    competitor_uuid UUID REFERENCES competitors(uuid),
+    old_rating INT,
+    new_rating INT,
+    change_date TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX rating_history_competitor_uuid_idx ON rating_history (competitor_uuid);
